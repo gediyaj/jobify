@@ -1,0 +1,88 @@
+<div class="wrap" id="aam">
+    <div class="postbox-container" style="width:70%;">
+        <div class="metabox-holder">
+            <div class="meta-box-sortables">
+                <div class="postbox">
+                    <div class="handlediv" title="<?php echo __('Click to toggle', 'aam'); ?>"></div>
+                    <h3 class="hndle">
+                        <span>
+                            <?php echo __('Extension List', 'aam'); ?>
+                        </span>
+                    </h3>
+                    <div class="inside">
+                        <table id="extension_list">
+                            <thead>
+                                <tr>
+                                    <th width="25%"><?php echo __('Name', 'aam'); ?></th>
+                                    <th width="50%"><?php echo __('Description', 'aam'); ?></th>
+                                    <th width="10%"><?php echo __('Price', 'aam'); ?></th>
+                                    <th><?php echo __('Actions', 'aam'); ?></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="extension-name">AAM Plus Package</span>
+                                    </td>
+                                    <td class="extension-description">
+                                        This Extension extends default AAM basic features and unlock some limitations.
+                                        Add custom taxonomy <b>Page Category</b> to ground pages into categories;
+                                        Unlock the limitation for Post Access control;
+                                        Add additional Capability Group <b>Comments</b> with the set of capabilities to control default comment
+                                        actions like <b>Reply</b>, <b>Mark Spam</b>, <b>Trash</b>, <b>Delete</b> etc;
+                                        Add possibility to setup default post or page access.
+                                        For more details, please visit our forum.
+                                    </td>
+                                    <td class="extension-price payed">$30.00</td>
+                                    <td>
+                                        <div class="extension-actions">
+                                            <a href="http://wpaam.com/support#viewtopic.php?f=7&t=10" target="_blank" class="extension-action extension-action-forum" tooltip="Visit Our Forum"></a>
+                                            <?php if ($this->hasExtension('AAM Plus Package')) { ?>
+                                                <a href="#" extension="AAM Plus Package" license="<?php echo $this->getExtension('AAM Plus Package')->license; ?>" class="extension-action extension-action-ok" tooltip="Installed Successfully"></a>
+                                            <?php } else { ?>
+                                                <a href="#" extension="AAM Plus Package" link="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=UEM8U65HFEG4Q" class="extension-action extension-action-purchase" tooltip="Get it Today"></a>
+                                            <?php } ?>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div id="install_extension" class="aam-dialog" title="<?php echo __('Install Extension', 'aam'); ?>">
+                            <p class="dialog-content">
+                                <?php echo __('If you already have license key for current extension, please enter it below. Othewise click <b>Purchase</b> button to checkout your order.', 'aam'); ?>
+                                <input type="text" class="license-input" id="license_key" placeholder="License Key" />
+                            </p>
+                        </div>
+                         <div id="update_extension" class="aam-dialog" title="<?php echo __('Update Extension', 'aam'); ?>">
+                            <p class="dialog-content" style="text-align: center;">
+                                <?php echo __('Extension has been installed. Your license key: ', 'aam'); ?><br/>
+                                <b><span id="installed_license_key"></span></b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="postbox-container" style="width:25%; margin-left: 2%;">
+        <div class="metabox-holder">
+            <div class="meta-box-sortables">
+                <div class="postbox">
+                    <div class="handlediv" title="<?php echo __('Click to toggle', 'aam'); ?>"></div>
+                    <h3 class="hndle">
+                        <span><?php echo __('Connect with AAM', 'aam'); ?></span>
+                    </h3>
+                    <div class="inside">
+                        <div id="misc-publishing-actions" class="cpanel">
+                            <a href="https://twitter.com/wpaam" class="cpanel-item cpanel-item-twitter" tooltip="Follow @wpaam" target="_blank">Follow</a>
+                            <a href="mailto:support@wpaam.com" class="cpanel-item cpanel-item-message" tooltip="Send Us Email">Send Message</a>
+                            <a href="http://wpaam.com" class="cpanel-item cpanel-item-website" tooltip="Visit Us" target="_blank">Website</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

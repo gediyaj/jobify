@@ -1,0 +1,98 @@
+/**
+ * ======================================================================
+ * LICENSE: This file is subject to the terms and conditions defined in *
+ * file 'license.txt', which is part of this source code package.       *
+ * ======================================================================
+ */
+
+/** CONTROL MANAGER STYLES **/
+.manager-item-multisite{
+    background-image: url('images/multisite.png');
+}
+
+.manager-item-multisite-active{
+    background-image: url('images/multisite-active.png');
+}
+
+.multisite-top-actions{
+    float: right;
+    display: inline-table;
+    width: auto;
+    text-align: right;
+}
+
+.multisite-top-action{
+    width: 24px;
+    height: 24px;
+    display: table-cell;
+    text-indent: -9999px;
+    padding-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.multisite-top-action-add{
+    background-image: url('images/add.png');
+}
+
+.multisite-top-action-add:hover{
+    background-image: url('images/add-active.png');
+}
+
+.multisite-top-action-refresh{
+    background-image: url('images/refresh.png');
+}
+
+.multisite-top-action-refresh:hover{
+    background-image: url('images/refresh-active.png');
+}
+
+.multisite-actions{
+    width: 100%;
+    display: table;
+}
+
+.multisite-action{
+    width: 16px;
+    height: 16px;
+    display: table-cell;
+    text-indent: -9999px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.multisite-action-manage{
+    background-image: url('images/manage.png');
+}
+
+.multisite-action-manage:hover{
+    background-image: url('images/manage-active.png');
+}
+
+.multisite-action-manage-active{
+    background-image: url('images/manage-active.png');
+}
+
+.multisite-action-pin{
+    background-image: url('images/pin.png');
+}
+
+.multisite-action-pin-active{
+    background-image: url('images/pin-active.png');
+}
+
+.multisite-action-pin:hover{
+    background-image: url('images/pin-active.png');
+}
+
+.multisite-action-edit{
+    background-image: url('images/edit.png');
+}
+
+.multisite-action-edit:hover{
+    background-image: url('images/edit-active.png');
+}
+
+.aam-multisite-bold{
+    font-weight: bold;
+}

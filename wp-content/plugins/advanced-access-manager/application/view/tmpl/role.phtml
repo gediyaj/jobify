@@ -1,0 +1,41 @@
+<?php
+/**
+ * ======================================================================
+ * LICENSE: This file is subject to the terms and conditions defined in *
+ * file 'license.txt', which is part of this source code package.       *
+ * ======================================================================
+ */
+?>
+<div id="role_manager_wrap">
+    <table id="role_list">
+        <thead>
+            <tr>
+                <th>Role ID</th>
+                <th>User Count</th>
+                <th width="60%"><?php echo __('Role', 'aam'); ?></th>
+                <th><?php echo __('Action', 'aam'); ?></th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <div id="manage_role_dialog" class="aam-dialog">
+        <table class="dataTable">
+            <tbody>
+                <tr>
+                    <th><?php echo __('Role Name', 'aam'); ?><span class="aam-asterix">*</span>:</th>
+                    <td><input type="text" id="role_name" class="aam-input" /></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="delete_role_dialog" class="aam-dialog" title="<?php echo __('Delete Role', 'aam'); ?>">
+        <p class="dialog-content"></p>
+    </div>
+     <div id="delete_admin_role_dialog" class="aam-dialog" title="<?php echo __('Notice', 'aam'); ?>">
+        <p class="dialog-content">
+            <?php echo __('You can not delete <b>Administrator</b> Role', 'aam'); ?>
+        </p>
+    </div>
+</div>

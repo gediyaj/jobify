@@ -1,0 +1,67 @@
+.migration-dialog{
+    position: fixed;
+    width: 30%;
+    top: 25%;
+    left: 50%;
+    margin-left: -12.5%;
+    border: 2px solid #CCCCCC;
+    background-color: #F5F5F5;
+    opacity: 0.9;
+}
+
+.migration-header{
+    height: 20px;
+    width: 100%;
+    background-color: #0074a2;
+    color: #FFFFFF;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    padding-left: 10px;
+    font-size: 12px;
+    padding-top: 4px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.migration-notice{
+    margin: 5px 10px;
+    border: 1px solid #FF6666;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.migration-steps{
+    margin: 5px 10px;
+}
+
+.migration-step{
+    border: 1px solid #CCCCCC;
+    margin-top: 2px;
+    background-color: #EAEBFF;
+    height: 28px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    font-size: 14px;
+    padding: 3px 0 3px 34px;
+    opacity: 0.3;
+}
+
+.migration-step-pending{
+	background: #EAEBFF url('migrate/pending.png') no-repeat 5px center;
+}
+
+.migration-step-running{
+	background: #EAEBFF url('migrate/wait.png') no-repeat 5px center;
+}
+
+.migration-step-completed{
+	background: #EAEBFF url('migrate/completed.png') no-repeat 5px center;
+}
+
+.migration-step-failed{
+	background: #EAEBFF url('migrate/failure.png') no-repeat 5px center;
+}

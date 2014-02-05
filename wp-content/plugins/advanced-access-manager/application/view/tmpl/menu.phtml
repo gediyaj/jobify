@@ -1,0 +1,75 @@
+<?php
+/**
+ * ======================================================================
+ * LICENSE: This file is subject to the terms and conditions defined in *
+ * file 'license.txt', which is part of this source code package.       *
+ * ======================================================================
+ */
+$menu = $this->getMenu();
+?>
+<div class="feature-content-container" id="admin_menu_content">
+    <?php if (count($menu)) { ?>
+        <div class="menu-top-actions">
+            <!--
+            <div class="menu-top-action-sort-description">
+                <span>Drag &amp; Drop the Menu Item to change the order.</span>
+            </div>
+            <a href="#" class="menu-top-action-item menu-top-action-sort" tooltip="Sort the Admin Menu"></a>
+            -->
+        </div>
+    <?php } ?>
+    <div id="main_menu_list">
+        <?php
+        if (count($menu)) {
+            $menuControl = $this->getSubject()->getObject(aam_Control_Object_Menu::UID);
+            foreach ($menu as $i => $menu) {
+                $menu_id = $i . uniqid();
+                ?>
+                <div class="group">
+                    <h4><?php echo $menu['name']; ?></h4>
+                    <div>
+                        <div class="whole-menu">
+                            <label for="m<?php echo $menu_id; ?>"><?php echo __('Hide All', 'aam'); ?></label>
+                            <input type="checkbox" id="m<?php echo $menu_id; ?>" name="aam[<?php echo aam_Control_Object_Menu::UID; ?>][<?php echo $menu['id']; ?>]" <?php echo ($this->hasRestrictedAll($menu) ? 'checked="checked"' : ''); ?> class="whole_menu" />
+                            <label for="m<?php echo $menu_id; ?>"><span></span></label>
+                        </div>
+                        <?php if (isset($menu['submenu'])) { ?>
+                            <div class="menu-submenu-list" id="submenu_m<?php echo $menu_id; ?>">
+                                <?php
+                                $c = 1;
+                                foreach ($menu['submenu'] as $j => $submenu) {
+                                    if ($c++ === 1) {
+                                        echo '<div class="menu-submenu-row">';
+                                    }
+                                    ?>
+                                    <div class="menu-submenu-item">
+                                        <label for="m<?php echo $menu_id . $j; ?>" tooltip="<?php echo $submenu['name']; ?>" ><?php echo $submenu['short']; ?></label>
+                                        <input type="checkbox" id="m<?php echo $menu_id . $j; ?>" name="aam[<?php echo aam_Control_Object_Menu::UID; ?>][<?php echo $submenu['id']; ?>]" <?php echo ($menuControl->has($submenu['id']) ? 'checked="checked"' : ''); ?> />
+                                        <label for="m<?php echo $menu_id . $j; ?>"><span></span></label>
+                                    </div>
+                                    <?php
+                                    if ($c > 3) {
+                                        $c = 1;
+                                        echo '</div>';
+                                    }
+                                }
+                                if ($c !== 1) {
+                                    echo '</div>';
+                                }
+                                ?>
+                            </div>
+                        <?php } ?>
+                    </div>
+                </div>
+                <?php
+            }
+        } else {
+            ?>
+            <div class="menu-empty-list">
+                <span><?php echo __('There is no single menu item allowed for current Role or User', 'aam'); ?></span>
+            </div>
+            <?php
+        }
+        ?>
+    </div>
+</div>

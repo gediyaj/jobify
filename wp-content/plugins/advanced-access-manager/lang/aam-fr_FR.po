@@ -1,0 +1,337 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: AAM\n"
+"POT-Creation-Date: 2013-12-01 14:07-0500\n"
+"PO-Revision-Date: 2014-01-15 23:25+0100\n"
+"Last-Translator: Moskito7 <moskito7@wanadoo.fr>\n"
+"Language-Team: WPAAM <support@wpaam.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
+"X-Generator: Poedit 1.5.4\n"
+
+#: aam.php:243 aam.php:248 aam.php:267
+msgid "Access denied"
+msgstr "Accès refusé"
+
+#: aam.php:691 aam.php:692
+msgid "AAM"
+msgstr "AAM"
+
+#: aam.php:701 aam.php:702
+msgid "Access Control"
+msgstr "Contrôle d'accès"
+
+#: aam.php:709 aam.php:710
+msgid "Extensions"
+msgstr "Extensions"
+
+#: application/view/capability.php:98 application/view/capability.php:179
+msgid "System"
+msgstr "Système"
+
+#: application/view/capability.php:99 application/view/capability.php:181
+msgid "Post & Page"
+msgstr "Articles et Pages"
+
+#: application/view/capability.php:100 application/view/capability.php:183
+msgid "Backend Interface"
+msgstr "Interface d'administration"
+
+#: application/view/capability.php:101
+msgid "Miscellaneous"
+msgstr "Divers"
+
+#: application/view/capability.php:185
+msgid "Miscelaneous"
+msgstr "Divers"
+
+#: application/view/manager.php:59
+msgid "Roles"
+msgstr "Rôles"
+
+#: application/view/manager.php:60
+msgid "Role Manager"
+msgstr "Gestionnaire de rôle"
+
+#: application/view/manager.php:68
+msgid "Users"
+msgstr "Utilisateurs"
+
+#: application/view/manager.php:69
+msgid "User Manager"
+msgstr "Gestionnaire d'utilisateurs"
+
+#: application/view/manager.php:77
+msgid "Visitor"
+msgstr "Visiteur"
+
+#: application/view/manager.php:78
+msgid "Visitor Manager"
+msgstr "Gestionnaire de visiteurs"
+
+#: application/view/manager.php:95
+msgid "Admin Menu"
+msgstr "Menu d'administration"
+
+#: application/view/manager.php:98
+msgid ""
+"Control Access to Admin Menu. Restrict access to entire Menu or Submenu. "
+"<b>Notice</b>, the menu is rendered based on Role's or User's capabilities."
+msgstr ""
+"Contrôler l'accès au menu d'administration. Restreindre l'accès au menu "
+"entier ou à un sous-menu. <b>Note</b>, l'affichage des menus est basé sur le "
+"rôle ou les capacités de l'utilisateur."
+
+#: application/view/manager.php:103
+msgid "Metabox & Widget"
+msgstr "Métabox & Widget"
+
+#: application/view/manager.php:106
+msgid ""
+"Filter the list of Metaboxes or Widgets for selected Role or User. If "
+"metabox or widget is not listed, try to click <b>Refresh the List</b> button "
+"or Copy & Paste direct link to page where specific metabox or widget is "
+"shown and hit <b>Retrieve Metaboxes from Link</b> button."
+msgstr ""
+"Filtrer la liste des métabox ou widgets pour le rôle ou l'utilisateur "
+"sélectionné. Si une métabox ou un widget n'est pas listé, essayez de cliquer "
+"sur le bouton <b>Rafraîchir la liste</b> ou copier et coller directement le "
+"lien vers la page où la métabox ou le widget est affiché et cliquez sur le "
+"bouton <b>Récupérer une métabox à partir d'un lien</b>."
+
+#: application/view/manager.php:111
+msgid "Capability"
+msgstr "Capacités"
+
+#: application/view/manager.php:114
+msgid ""
+"Manage the list of Capabilities for selected User or Role. <b>Notice</b>, "
+"list of user's capabilities are inherited from user's Role.<br/><b>Warning!</"
+"b> Be very careful with capabilities. Deleting or unchecking any capability "
+"may cause temporary or permanent constrol lost over some features or "
+"WordPress dashboard."
+msgstr ""
+"Gérer la liste des capacités pour l'utilisateur ou le rôle sélectionné. "
+"<b>Note</b>, la liste des capacités de l'utilisateur est héritée du rôle de "
+"l'utilisateur.</br><b>Attention !</b> Faites très attention avec les "
+"capacités. Supprimer ou décocher n'importe quelle capacité pourrait "
+"entrainer la perte temporaire ou définitive de certaines fonctionnalités ou "
+"du tableau de bord de Wordpress."
+
+#: application/view/manager.php:119
+msgid "Posts & Categories"
+msgstr "Articles et Catégories"
+
+#: application/view/manager.php:122
+msgid ""
+"Manage access to individual <b>Post</b> or <b>Term</b>. Notice, under "
+"<b>Post</b>, we assume any post, page or custom post type. And under "
+"<b>Term</b> - any term like Post Categories."
+msgstr ""
+"Gérer l'accès individuellement aux <b>articles</b> ou <b>termes</b>. Note, "
+"on entend par <b>article</b> n'importe quel article, page ou type d'article. "
+"Et par <b>terme</b> n'importe quel élément comme des catégories d'articles."
+
+#: application/view/manager.php:127
+msgid "Event Manager"
+msgstr "Gestionnaire d'événements"
+
+#: application/view/manager.php:130
+msgid ""
+"Define your own action when some event appeared in your WordPress blog. This "
+"sections allows you to trigger an action on event like post content change, "
+"or page status update. You can setup to send email notification, change the "
+"post status or write your own custom event handler."
+msgstr ""
+"Définir votre propre action lorsqu'un événement apparaît sur votre blog "
+"WordPress. Cette section vous permet de déclencher une action sur un "
+"événement comme le changement de contenu d'un article, ou une mise à jour de "
+"l'état de la page. Vous pouvez configurer l'envoi d'une notification par E-"
+"mail, la modification du statut de l'article ou écrire votre propre "
+"gestionnaire d'événements."
+
+#: application/view/manager.php:135
+msgid "ConfigPress"
+msgstr "ConfigPress"
+
+#: application/view/manager.php:138
+msgid ""
+"Control <b>AAM</b> behavior with ConfigPress. For more details please check "
+"<b>ConfigPress tutorial</b>."
+msgstr ""
+"Contrôler le comportement de <b>AAM</b> avec ConfigPress. Pour plus de "
+"détails regardez le <b>tutoriel ConfigPress</b>."
+
+#: application/view/manager.php:342
+msgid "Rollback Settings"
+msgstr "Rétablir les paramètres"
+
+#: application/view/manager.php:343
+msgid "Cancel"
+msgstr "Annuler"
+
+#: application/view/manager.php:344
+msgid "Send E-mail"
+msgstr "Envoyer un E-mail"
+
+#: application/view/manager.php:345 application/view/manager.php:351
+msgid "Add New Role"
+msgstr "Ajouter un rôle"
+
+#: application/view/manager.php:346
+msgid "Manage"
+msgstr "Gérer"
+
+#: application/view/manager.php:347
+msgid "Edit"
+msgstr "Editer"
+
+#: application/view/manager.php:348
+msgid "Delete"
+msgstr "Supprimer"
+
+#: application/view/manager.php:349
+msgid "Filtered"
+msgstr "Filtré"
+
+#: application/view/manager.php:350
+msgid "Clear"
+msgstr "Nettoyer"
+
+#: application/view/manager.php:352
+msgid "Save Changes"
+msgstr "Sauvegarder les modifications"
+
+#: application/view/manager.php:353
+#, php-format
+msgid ""
+"System detected %d user(s) with this role. All Users with Role <b>%s</b> "
+"will be deleted automatically!"
+msgstr ""
+"Le système a détecté %d utilisateur(s) avec ce rôle. Tous les utilisateurs "
+"avec le rôle <b>%s</b> seront automatiquement supprimés !"
+
+#: application/view/manager.php:354
+#, php-format
+msgid "Are you sure that you want to delete role <b>%s</b>?"
+msgstr "Êtes-vous certain de vouloir supprimer <b>%s</b> ?"
+
+#: application/view/manager.php:355
+msgid "Delete Role"
+msgstr "Supprimer le rôle"
+
+#: application/view/manager.php:356
+msgid "Add User"
+msgstr "Ajouter un utilisateur"
+
+#: application/view/manager.php:357
+msgid "Filter Users"
+msgstr "Filtrer les utilisateurs"
+
+#: application/view/manager.php:358 application/view/manager.php:374
+msgid "Refresh List"
+msgstr "Rafraîchir la liste"
+
+#: application/view/manager.php:359
+msgid "Block"
+msgstr "Bloquer"
+
+#: application/view/manager.php:360
+#, php-format
+msgid "Are you sure you want to delete user <b>%s</b>?"
+msgstr "Êtes-vous certain de vouloir supprimer l'utilisateur <b>%s</b> ?"
+
+#: application/view/manager.php:361
+msgid "Filter Capabilities by Category"
+msgstr "Filtrer les capacités par catégorie"
+
+#: application/view/manager.php:362
+msgid "Inherit Capabilities"
+msgstr "Capacités héritées"
+
+#: application/view/manager.php:363
+msgid "Add New Capability"
+msgstr "Ajouter une nouvelle capacité"
+
+#: application/view/manager.php:364
+#, php-format
+msgid "Are you sure that you want to delete capability <b>%s</b>?"
+msgstr "Êtes-vous certain de vouloir supprimer la capacité <b>%s</b> ?"
+
+#: application/view/manager.php:365
+msgid "Delete Capability"
+msgstr "Supprimer la capacité"
+
+#: application/view/manager.php:366
+msgid "Select Role"
+msgstr "Sélectionner le rôle"
+
+#: application/view/manager.php:367
+msgid "Add Capability"
+msgstr "Ajouter la capacité"
+
+#: application/view/manager.php:368
+msgid "Add Event"
+msgstr "Ajouter un événement"
+
+#: application/view/manager.php:369
+msgid "Edit Event"
+msgstr "Editer un événement"
+
+#: application/view/manager.php:370 application/view/manager.php:372
+msgid "Delete Event"
+msgstr "Supprimer un événement"
+
+#: application/view/manager.php:371
+msgid "Save Event"
+msgstr "Sauvegarder un événement"
+
+#: application/view/manager.php:373
+msgid "Filter Posts by Post Type"
+msgstr "Filtrer les articles par type"
+
+#: application/view/manager.php:375
+msgid "Restore Default"
+msgstr "Restaurer les paramètres par défaut"
+
+#: application/view/manager.php:376
+msgid "Apply"
+msgstr "Appliquer"
+
+#: application/view/manager.php:377
+msgid "Edit Term"
+msgstr "Editer les termes"
+
+#: application/view/manager.php:378
+msgid "Manager Access"
+msgstr "Gestionnaire d'accès"
+
+#: application/view/manager.php:379
+msgid "Unlock Default Accesss Control"
+msgstr "Déverrouiller le contrôle d'accès par défaut"
+
+#: application/view/manager.php:380
+msgid "Close"
+msgstr "Fermer"
+
+#: application/view/manager.php:381
+msgid "Edit Role"
+msgstr "Editer le rôle"
+
+#: application/view/metabox.php:179
+msgid "Dashboard Widgets"
+msgstr "Widgets du tableau de bord"
+
+#: application/view/metabox.php:183
+msgid "Frontend Widgets"
+msgstr "Widgets du site"
+
+#: application/view/post.php:181
+msgid "[empty]"
+msgstr "[vide]"
+
+#: application/view/post.php:345 application/view/post.php:353
+msgid "All"
+msgstr "Tout"

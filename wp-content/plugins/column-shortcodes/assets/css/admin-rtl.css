@@ -1,0 +1,95 @@
+/* =Shortcodes
+-------------------------------------------------------------- */
+#cpsh .cpsh-shortcodes {
+	float: right;
+	width: 46%;
+}
+#cpsh .cpsh-title {
+	width: 100%;
+	text-align: right;
+}
+#cpsh .columns {
+	padding-left: 0;
+	padding-right: 94px;
+	text-align: right;
+	background: transparent url(../images/columns-rtl.png) no-repeat right 6px;
+}
+#cpsh .cp-one_half { background-position: right 6px; }
+#cpsh .cp-one_half_last { background-position: right -14px; }
+#cpsh .cp-one_third { background-position: right -34px; }
+#cpsh .cp-one_third_last { background-position: right -54px; }
+#cpsh .cp-two_third { background-position: right -74px; }
+#cpsh .cp-two_third_last { background-position: right -94px; }
+#cpsh .cp-one_fourth { background-position: right -114px; }
+#cpsh .cp-one_fourth_last { background-position: right -134px; }
+#cpsh .cp-three_fourth { background-position: right -154px; }
+#cpsh .cp-three_fourth_last { background-position: right -174px; }
+#cpsh .cp-one_fifth { background-position: right -194px; }
+#cpsh .cp-one_fifth_last { background-position: right -214px; }
+#cpsh .cp-two_fifth { background-position: right -234px; }
+#cpsh .cp-two_fifth_last { background-position: right -254px; }
+#cpsh .cp-three_fifth { background-position: right -274px; }
+#cpsh .cp-three_fifth_last { background-position: right -294px; }
+#cpsh .cp-four_fifth { background-position: right -314px; }
+#cpsh .cp-four_fifth_last { background-position: right -334px; }
+#cpsh .cp-one_sixth { background-position: right -354px; }
+#cpsh .cp-one_sixth_last { background-position: right -374px; }
+#cpsh .cp-full_width { background-position: right -394px; }
+
+/* =Settings
+-------------------------------------------------------------- */
+#cpsh .cpsh-settings {
+	float: left;
+	width: 50%;
+}
+#preview-padding {
+	margin: 10px 0;
+}
+#preview-padding .column-container {
+	width: 200px;
+	max-height: 370px;
+	border: 1px solid #808080;
+	background: #f3fcff;
+	position: relative;
+}
+#preview-padding .column-inner {
+	border: 1px solid #fff;
+	background: #fff;
+	height: 130px;
+}
+#preview-padding .padding-fields input {
+	position: absolute;
+	width: 34px;
+	border: 1px solid #DFDFDF;
+	border-radius: 3px 3px 3px 3px;
+	margin: 0;
+	text-align: center;
+}
+#preview-padding .padding-fields input#padding-top {
+	top: 10px;
+	left: 50%;
+	margin-left: -17px;
+}
+#preview-padding .padding-fields input#padding-right {
+	top: 50%;
+	margin-top: -10px;
+	right: 10px;
+}
+#preview-padding .padding-fields input#padding-bottom {
+	bottom: 10px;
+	left: 50%;
+	margin-left: -17px;
+}
+#preview-padding .padding-fields input#padding-left {
+	top: 50%;
+	margin-top: -10px;
+	left: 10px;
+}
+#TB_window #preview-padding .padding-reset {
+	color: #097BB4;
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 3px;
+	padding-top: 3px;
+	text-align: right;
+}

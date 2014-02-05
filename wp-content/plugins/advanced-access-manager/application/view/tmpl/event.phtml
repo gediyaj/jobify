@@ -1,0 +1,108 @@
+<?php
+/**
+ * ======================================================================
+ * LICENSE: This file is subject to the terms and conditions defined in *
+ * file 'license.txt', which is part of this source code package.       *
+ * ======================================================================
+ */
+?>
+<div class="feature-content-container" id="event_manager_content">
+    <table id="event_list">
+        <thead>
+            <tr>
+                <th width="30%"><?php echo __('Event', 'aam'); ?></th>
+                <th><?php echo __('Event Specifier', 'aam'); ?></th>
+                <th width="25%"><?php echo __('Bind Post Type', 'aam'); ?></th>
+                <th width="30%"><?php echo __('Action', 'aam'); ?></th>
+                <th><?php echo __('Action Specifier', 'aam'); ?></th>
+                <th><?php echo __('Control', 'aam'); ?></th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <div id="manage_event_dialog" class="aam-dialog" title="<?php echo __('Manager Event'); ?>">
+        <table class="aam-form-table">
+            <tbody>
+                <tr>
+                    <th width="40%"><?php echo __('Event', 'aam'); ?><span class="aam-asterix">*</span>:</th>
+                    <td>
+                        <select id="event_event">
+                            <option value="status_change"><?php echo __('Post Status Change', 'aam'); ?></option>
+                            <option value="content_change"><?php echo __('Post Content Change', 'aam'); ?></option>
+                        </select>
+                    </td>
+                </tr>
+                <tr id="status_changed" style="display: none;">
+                    <th><?php echo __('Status Changed To', 'aam'); ?><span class="aam-asterix">*</span>:</th>
+                    <td>
+                        <select id="event_specifier">
+                            <?php
+                            foreach ($this->getPostStatuses() as $status => $config) {
+                                if ($config->show_in_admin_status_list) {
+                                    echo '<option value="' . $status . '">';
+                                    echo $config->label . '</option>';
+                                }
+                            }
+                            ?>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th><?php echo __('Bind to Post Type', 'aam'); ?><span class="aam-asterix">*</span>:</th>
+                    <td>
+                        <select id="event_bind">
+                            <?php
+                            foreach ($this->getPostTypes() as $post => $config) {
+                                echo '<option value="' . $post . '">';
+                                echo $config->labels->name . '</option>';
+                            }
+                            ?>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th><?php echo __('Action', 'aam'); ?><span class="aam-asterix">*</span>:</th>
+                    <td>
+                        <select id="event_action">
+                            <option value="notify"><?php echo __('Email Notification', 'aam'); ?></option>
+                            <option value="change_status"><?php echo __('Change Status', 'aam'); ?></option>
+                            <option value="callback"><?php echo __('Callback', 'aam'); ?></option>
+                        </select>
+                    </td>
+                </tr>
+                <tr id="event_specifier_notify_holder" class="event-specifier">
+                    <th><?php echo __('Email Address', 'aam'); ?><span class="aam-asterix">*</span>:</th>
+                    <td>
+                        <input type="text" id="event_specifier_notify" />
+                    </td>
+                </tr>
+                <tr id="event_specifier_change_status_holder" class="event-specifier">
+                    <th><?php echo __('Change Status To', 'aam'); ?><span class="aam-asterix">*</span>:</th>
+                    <td>
+                        <select id="event_specifier_change_status">
+                            <?php
+                            foreach ($this->getPostStatuses() as $status => $config) {
+                                if ($config->show_in_admin_status_list) {
+                                    echo '<option value="' . $status . '">';
+                                    echo $config->label . '</option>';
+                                }
+                            }
+                            ?>
+                        </select>
+                    </td>
+                </tr>
+                <tr id="event_specifier_callback_holder" class="event-specifier">
+                    <th><?php echo __('Callback Function', 'aam'); ?><span class="aam-asterix">*</span>:</th>
+                    <td>
+                        <input type="text" id="event_specifier_callback" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="delete_event" class="aam-dialog" title="<?php echo __('Delete Event', 'aam'); ?>">
+        <p class="dialog-content"><?php echo __('Are you sure you want to delete selected Event?', 'aam'); ?></p>
+    </div>
+
+</div>

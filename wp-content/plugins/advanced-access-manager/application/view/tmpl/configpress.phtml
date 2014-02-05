@@ -1,0 +1,15 @@
+<?php
+/**
+ * ======================================================================
+ * LICENSE: This file is subject to the terms and conditions defined in *
+ * file 'license.txt', which is part of this source code package.       *
+ * ======================================================================
+ */
+?>
+<div class="feature-content-container" id="configpress_content">
+    <div class="configpress-top-actions">
+        <a href="<?php echo AAM_BASE_URL . '/docs/configpress.pdf' ?>" target="_blank" class="configpress-top-action-item configpress-top-action-tutorial" tooltip="<?php echo __('Download ConfigPress Tutorial', 'aam'); ?>"></a>
+    </div>
+
+    <textarea id="configpress" style="width:100%; height: 400px;"><?php echo $this->getSubject()->getObject(aam_Control_Object_ConfigPress::UID)->getConfig(); ?></textarea>
+</div>

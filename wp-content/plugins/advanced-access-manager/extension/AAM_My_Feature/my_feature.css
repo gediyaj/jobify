@@ -1,0 +1,66 @@
+/**
+ * ======================================================================
+ * LICENSE: This file is subject to the terms and conditions defined in *
+ * file 'license.txt', which is part of this source code package.       *
+ * ======================================================================
+ */
+.my-feature-banner{
+    width: 100%;
+    background: transparent url('images/worker.png') no-repeat center 10px;
+    padding-top: 150px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.my-feature-banner .banner-style{
+    margin: 0px 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.my-feature-actions{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.my-feature-action{
+    min-width: 48px;
+    height: 70px;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+}
+
+.my-feature-action span{
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333333;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.my-feature-message-action{
+    background: transparent url('images/message.png') no-repeat center 6px;
+}
+
+.my-feature-message-action:hover{
+    background: transparent url('images/message-active.png') no-repeat center 6px;
+}
+
+.my-feature-forum-action{
+    background: transparent url('images/talk.png') no-repeat center 0;
+    margin-left: 60px;
+}
+
+.my-feature-forum-action:hover{
+    background: transparent url('images/talk-active.png') no-repeat center 0;
+    margin-left: 60px;
+}

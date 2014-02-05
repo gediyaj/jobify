@@ -1,0 +1,98 @@
+<?php
+/**
+ * ======================================================================
+ * LICENSE: This file is subject to the terms and conditions defined in *
+ * file 'license.txt', which is part of this source code package.       *
+ * ======================================================================
+ */
+?>
+<div class="wrap" id="aam">
+    <form action="" method="post" id="aam_form">
+        <?php do_action('aam_cmanager_hierarchy'); ?>
+        <div class="postbox-container" style="width:70%;">
+            <div class="metabox-holder">
+                <div class="meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php echo __('Click to toggle', 'aam'); ?>"></div>
+                        <h3 class="hndle">
+                            <?php if (aam_Core_API::isNetworkPanel()) { ?>
+                                <span class="current-site"></span>
+                            <?php } ?>
+                            <span class="current-subject"></span>
+                        </h3>
+                        <div class="inside main-inside">
+                            <div class="aam-main-loader"></div>
+                            <div class="aam-main-content"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="postbox-container" style="width:25%; margin-left: 2%;">
+            <div class="metabox-holder" id="control_panel">
+                <div class="meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php echo __('Click to toggle', 'aam'); ?>"></div>
+                        <h3 class="hndle">
+                            <span><?php echo __('Control Panel', 'aam'); ?></span>
+                        </h3>
+                        <div class="inside">
+                            <div>
+                                <div class="cpanel-major">
+                                    <a href="#" class="cpanel-item cpanel-item-restore" id="aam_roleback" tooltip="<?php echo __('Undo Change', 'aam'); ?>"><?php echo __('Undo Change', 'aam'); ?></a>
+                                    <a href="#" class="cpanel-item cpanel-item-save" id="aam_save" ><?php echo __('Save', 'aam'); ?></a>
+                                </div>
+                            </div>
+                            <div class="cpanel-minor">
+                                <a href="https://twitter.com/wpaam" target="_blank" class="cpanel-item cpanel-item-twitter" id="aam_twitter" tooltip="<?php echo __('Follow @wpaam', 'aam'); ?>"><?php echo __('Follow', 'aam'); ?></a>
+                                <a href="http://wpaam.com/support" target="_blank" class="cpanel-item cpanel-item-help" id="aam_help" tooltip="<?php echo __('Help Forum', 'aam'); ?>"><?php echo __('Help', 'aam'); ?></a>
+                                <a href="#" class="cpanel-item cpanel-item-message" id="aam_message" tooltip="<?php echo __('E-mail Us', 'aam'); ?>"><?php echo __('E-mail Us', 'aam'); ?></a>
+                                <a href="http://wordpress.org/support/view/plugin-reviews/advanced-access-manager" target="_blank" class="cpanel-item cpanel-item-star" tooltip="<?php echo __('Rate AAM', 'aam'); ?>"><?php echo __('Rate Us', 'aam'); ?></a>
+                            </div>
+                            <div class="aam-metabox-loader"></div>
+                        </div>
+                        <div id="restore_dialog" class="aam-dialog" title="<?php echo __('Undo Change', 'aam'); ?>">
+                            <p class="dialog-content"><?php echo __('Would your like to role back current settings?', 'aam'); ?></p>
+                        </div>
+                        <div id="message_dialog" class="aam-dialog" title="<?php echo __('E-mail Us', 'aam'); ?>">
+                            <p class="dialog-content"><?php echo __('Our E-mail address is <b>support@wpaam.com</b>', 'aam'); ?></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="metabox-holder" id="control_manager">
+                <div class="meta-box-sortables">
+                    <div class="postbox">
+                        <div class="handlediv" title="<?php echo __('Click to toggle', 'aam'); ?>"></div>
+                        <h3 class="hndle">
+                            <span><?php echo __('Control Manager', 'aam'); ?></span>
+                        </h3>
+                        <div class="inside">
+                            <div id="minor-publishing">
+                                <div id="misc-publishing-actions" class="control-manager">
+                                    <?php
+                                    foreach ($this->getCManager() as $item) {
+                                        echo '<a href="#" class="', $item['class'], '" ';
+                                        echo 'id="', $item['id'], '" tooltip="', $item['title'], '" segment="' . $item['segment'] . '">';
+                                        echo $item['label'], '</a>';
+                                    }
+                                    ?>
+                                </div>
+                            </div>
+                            <div class="control-manager-content">
+                                <?php
+                                foreach ($this->getCManager() as $item) {
+                                    echo call_user_func($item['content']);
+                                }
+                                ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br class="clear" />
+    </form>
+</div>

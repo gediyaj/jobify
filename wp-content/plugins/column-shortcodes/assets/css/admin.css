@@ -1,0 +1,129 @@
+/* =Popup
+-------------------------------------------------------------- */
+#cpsh {
+	margin-top: 13px;
+	width: 100%;
+}
+#cpsh .cpsh-title {
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	width: 224px;
+	margin: 0 0 6px;
+	padding: 0;
+	text-align: left;
+	color: #666;
+	font-size: 13px;
+}
+#cpsh #cpsh-generator-header {
+	border: 1px dashed #CCCCCC;
+    padding: 20px;
+	overflow: hidden;
+}
+
+/* =Shortcodes
+-------------------------------------------------------------- */
+#cpsh .cpsh-shortcodes {
+	float: left;
+	width: 50%;
+}
+#cpsh .columns {
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	text-align: left;
+	padding-left: 94px;
+	min-width: 130px;
+	text-decoration: none;
+	background: transparent url(../images/columns.png) no-repeat left 6px;
+}
+#cpsh .cp-one_half { background-position: left 6px; }
+#cpsh .cp-one_half_last { background-position: left -14px; }
+#cpsh .cp-one_third { background-position: left -34px; }
+#cpsh .cp-one_third_last { background-position: left -54px; }
+#cpsh .cp-two_third { background-position: left -74px; }
+#cpsh .cp-two_third_last { background-position: left -94px; }
+#cpsh .cp-one_fourth { background-position: left -114px; }
+#cpsh .cp-one_fourth_last { background-position: left -134px; }
+#cpsh .cp-three_fourth { background-position: left -154px; }
+#cpsh .cp-three_fourth_last { background-position: left -174px; }
+#cpsh .cp-one_fifth { background-position: left -194px; }
+#cpsh .cp-one_fifth_last { background-position: left -214px; }
+#cpsh .cp-two_fifth { background-position: left -234px; }
+#cpsh .cp-two_fifth_last { background-position: left -254px; }
+#cpsh .cp-three_fifth { background-position: left -274px; }
+#cpsh .cp-three_fifth_last { background-position: left -294px; }
+#cpsh .cp-four_fifth { background-position: left -314px; }
+#cpsh .cp-four_fifth_last { background-position: left -334px; }
+#cpsh .cp-one_sixth { background-position: left -354px; }
+#cpsh .cp-one_sixth_last { background-position: left -374px; }
+#cpsh .cp-full_width { background-position: left -394px; }
+
+/* =Settings
+-------------------------------------------------------------- */
+#cpsh .cpsh-settings {
+	float: right;
+	width: 50%;
+}
+#preview-padding {
+	margin: 10px 0;
+}
+#preview-padding .column-container {
+	width: 200px;
+	max-height: 370px;
+	border: 1px solid #808080;
+	background: #f3fcff;
+	position: relative;
+}
+#preview-padding .column-inner {
+	border: 1px solid #fff;
+	background: #fff;
+	height: 130px;
+}
+#preview-padding .padding-fields input {
+	position: absolute;
+	width: 34px;
+	border: 1px solid #DFDFDF;
+	border-radius: 3px 3px 3px 3px;
+	margin: 0;
+	text-align: center;
+}
+#preview-padding .padding-fields input#padding-top {
+	top: 10px;
+	left: 50%;
+	margin-left: -17px;
+}
+#preview-padding .padding-fields input#padding-right {
+	top: 50%;
+	margin-top: -10px;
+	right: 10px;
+}
+#preview-padding .padding-fields input#padding-bottom {
+	bottom: 10px;
+	left: 50%;
+	margin-left: -17px;
+}
+#preview-padding .padding-fields input#padding-left {
+	top: 50%;
+	margin-top: -10px;
+	left: 10px;
+}
+#TB_window  #preview-padding .padding-reset {
+	color: #097BB4;
+	text-decoration: none;
+	display: inline-block;
+	padding-left: 3px;
+	padding-top: 3px;
+}
+/*
+#TB_window  #preview-padding .column-container .padding-reset {
+	margin-top: -6px;
+	margin-left: -45px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 90px;
+	overflow: hidden;
+	text-align: center;
+}
+*/

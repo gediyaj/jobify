@@ -1,0 +1,322 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Peters'login redirect v2.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-19 21:40-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Borisa Djuraskovic <borisad@webhostinghub.com>\n"
+"Language-Team: jibo.ro <contact@jibo.ro>\n"
+"Language: ro_RO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;esc_attr_e;"
+"esc_attr__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: wplogin_redirect.php:567
+msgid "Register"
+msgstr "Registruj"
+
+#: wplogin_redirect.php:571
+msgid "Site Admin"
+msgstr "Admin sajta"
+
+#: wplogin_redirect.php:711
+msgid "ERROR: Non-local or invalid URL submitted for user "
+msgstr "GREŠKA: Non-local ili nepostojeći URL podnešen za korisnike"
+
+#: wplogin_redirect.php:721
+msgid "ERROR: Unknown error updating user-specific URL for user "
+msgstr ""
+"GREŠKA:  Nepoznata greška prilikom updatinga URL odredjenog posebno za "
+"korisnike"
+
+#: wplogin_redirect.php:731
+msgid "ERROR: Non-existent username submitted "
+msgstr "GREŠKA: Nepostojeće korisničko ime podnešeno"
+
+#: wplogin_redirect.php:745
+msgid "Successfully updated user-specific URLs"
+msgstr "Uspešnon updateovani URLovi odredjeni za korisnike"
+
+#: wplogin_redirect.php:794
+msgid "ERROR: Non-local or invalid URL submitted for role "
+msgstr "GREŠKA:  Non-local  URL podnešen za ulogu"
+
+#: wplogin_redirect.php:804
+msgid "ERROR: Unknown error updating role-specific URL for role "
+msgstr "GREŠKA:  Nepoznata greška prilikom URL for role"
+
+#: wplogin_redirect.php:813
+msgid "ERROR: Non-existent role submitted "
+msgstr "GREŠKA:  Nepostojeća uloga podnešena"
+
+#: wplogin_redirect.php:826
+msgid "Successfully updated role-specific URLs"
+msgstr "Uspešno updateovani URLovi"
+
+#: wplogin_redirect.php:882
+msgid "ERROR: Non-local or invalid URL submitted for level "
+msgstr "GREŠKA:  Non-local ili nepostojeći URL podnešen za nivo"
+
+#: wplogin_redirect.php:891
+msgid "ERROR: Unknown error updating level-specific URL for level "
+msgstr ""
+"GREŠKA:  Nepoznata greška prilikom updateovana URLa odredjenog nivovm za "
+"nivo  "
+
+#: wplogin_redirect.php:901
+msgid "ERROR: Non-existent level submitted "
+msgstr "GREŠKA:  Nepostojeći nivo podnešen"
+
+#: wplogin_redirect.php:914
+msgid "Successfully updated level-specific URLs"
+msgstr "Uspešno updateovani URLovi odredjeni nivoom "
+
+#: wplogin_redirect.php:953
+msgid ""
+"ERROR: Unknown database problem removing URL for &#34;all other users&#34; "
+msgstr ""
+"GREŠKA: Nepoznati  problem baze podataka uklanjanjem URLa za &#34;svi ostali "
+"korisnici&#34;"
+
+#: wplogin_redirect.php:957
+msgid "Successfully removed URL for &#34;all other users&#34; "
+msgstr "Uspešno uklonjen URL za &#34;svi ostali korisnici&#34;"
+
+#: wplogin_redirect.php:968 wplogin_redirect.php:1037
+msgid "ERROR: Non-local or invalid URL submitted "
+msgstr "GREŠKA: Non-local ili nedostupan URL podnet"
+
+#: wplogin_redirect.php:981
+msgid ""
+"ERROR: Unknown database problem updating URL for &#34;all other users&#34; "
+msgstr ""
+"GREŠKA:Unknown database problem updating URL for &#34;svi ostali "
+"korisnici&#34;"
+
+#: wplogin_redirect.php:985
+msgid "Successfully updated URL for &#34;all other users&#34;"
+msgstr "Uspešno uklonje URL za &#34;svi ostali korisnici&#34;"
+
+#: wplogin_redirect.php:1024
+#, fuzzy
+msgid ""
+"ERROR: Unknown database problem removing URL for &#34;post-registration&#34; "
+msgstr ""
+"EROARE: Eroare de baza de date necunoscuta la inlaturarea URL-urilor pentru "
+"&#34;toti utilizatorii&#34; "
+
+#: wplogin_redirect.php:1027
+#, fuzzy
+msgid "Successfully removed URL for &#34;post-registration&#34; "
+msgstr "S-a inlaturat cu succes URL-ul pentru &#34;toti utilizatorii&#34; "
+
+#: wplogin_redirect.php:1050
+#, fuzzy
+msgid ""
+"ERROR: Unknown database problem updating URL for &#34;post-registration&#34; "
+msgstr ""
+"EROARE: Problema necunoscuta la actualizarea URL-ului in baza de date pentru "
+"&#34;toti utilizatorii&#34; "
+
+#: wplogin_redirect.php:1054
+#, fuzzy
+msgid "Successfully updated URL for &#34;post-registration&#34;"
+msgstr "URL actualizat cu succes pentru &#34;toti ceilalti utilizatori&#34;"
+
+#: wplogin_redirect.php:1080
+#, fuzzy
+msgid "Successfully updated plugin settings"
+msgstr "URL-urile specifice utilizatorilor actualizate cu succes"
+
+#: wplogin_redirect.php:1252
+#, fuzzy
+msgid "Manage redirect rules"
+msgstr "Modifica regulile de redirectionare a autentificarii"
+
+#: wplogin_redirect.php:1254
+#, fuzzy
+msgid ""
+"Define custom URLs to which different users, users with specific roles, "
+"users with specific levels, and all other users will be redirected upon "
+"login."
+msgstr ""
+"Specifica URL-uri locale diferite pentru care utilizatorii diferiti, "
+"utilizatorii cu roluri specifice, utilizatorii cu nivele specifice si toti "
+"ceilalti utilizatori vor fi redirectionati."
+
+#: wplogin_redirect.php:1255
+msgid "Define a custom URL to which all users will be redirected upon logout"
+msgstr ""
+"Definisati custom URLove za različite korisnike, korisnike sa odredjenim "
+"ulogama, korisdnike sa odredjenim nivoima, i sve ostale korisniuke koji će "
+"biti redirectovani prilikom login-a."
+
+#: wplogin_redirect.php:1256
+msgid ""
+"Note that you can use the syntax <strong>[variable]username[/variable]</"
+"strong> in your URLs so that the system will build a dynamic URL upon each "
+"login, replacing that text with the users username."
+msgstr ""
+"Imajte na umu da možete da koristite sintaksu <strong>[variable] korisničko "
+"ime[/variable]</strong> u URL adresama , tako da će sistem izgraditi "
+"dinamički URL na svakom prijavljivanju, zamenjujući taj tekst sa korisničkim "
+"imenom korisnika ."
+
+#: wplogin_redirect.php:1258
+msgid "Specific users"
+msgstr "Odredjeni korisnici"
+
+#: wplogin_redirect.php:1262
+msgid "Username"
+msgstr "Korisničko ime"
+
+#: wplogin_redirect.php:1263 wplogin_redirect.php:1285
+#: wplogin_redirect.php:1308
+msgid "URL"
+msgstr "URL"
+
+#: wplogin_redirect.php:1264 wplogin_redirect.php:1286
+#: wplogin_redirect.php:1309
+msgid "Logout URL"
+msgstr "Logout URL"
+
+#: wplogin_redirect.php:1269 wplogin_redirect.php:1291
+#: wplogin_redirect.php:1314
+msgid "Add:"
+msgstr "Dodati:"
+
+#: wplogin_redirect.php:1271
+msgid "Select a username"
+msgstr "Izabrati korisničko ime"
+
+#: wplogin_redirect.php:1274 wplogin_redirect.php:1296
+#: wplogin_redirect.php:1320 wplogin_redirect.php:1328
+#: wplogin_redirect.php:1337
+msgid "URL:"
+msgstr "URL:"
+
+#: wplogin_redirect.php:1275 wplogin_redirect.php:1297
+#: wplogin_redirect.php:1321 wplogin_redirect.php:1329
+msgid "Logout URL:"
+msgstr "Logout URL:"
+
+#: wplogin_redirect.php:1277 wplogin_redirect.php:1299
+#: wplogin_redirect.php:1323 wplogin_redirect.php:1330
+#: wplogin_redirect.php:1338 wplogin_redirect.php:1415
+msgid "Update"
+msgstr "Update-uj"
+
+#: wplogin_redirect.php:1280
+msgid "Specific roles"
+msgstr "Odredjene uloge"
+
+#: wplogin_redirect.php:1284
+msgid "Role"
+msgstr "Uloga"
+
+#: wplogin_redirect.php:1293
+msgid "Select a role"
+msgstr "Izabrati ulogu"
+
+#: wplogin_redirect.php:1302
+msgid "Specific levels"
+msgstr "Odredjeni nivoi"
+
+#: wplogin_redirect.php:1306
+msgid "Level"
+msgstr "Nivo"
+
+#: wplogin_redirect.php:1307
+msgid "Order"
+msgstr "Naručiti"
+
+#: wplogin_redirect.php:1316
+msgid "Select a level"
+msgstr "Izabrati nivo"
+
+#: wplogin_redirect.php:1319
+msgid "Order:"
+msgstr "Naručiti:"
+
+#: wplogin_redirect.php:1326
+msgid "All other users"
+msgstr "Svi ostali korisnici"
+
+#: wplogin_redirect.php:1330 wplogin_redirect.php:1338
+msgid "Delete"
+msgstr "Obrisati"
+
+#: wplogin_redirect.php:1335
+msgid "Post-registration"
+msgstr "Obrisati"
+
+#: wplogin_redirect.php:1343
+msgid "Customize plugin settings"
+msgstr "Customize plugin postavke"
+
+#: wplogin_redirect.php:1348
+msgid "Redirect restrictions"
+msgstr "Redirektuj restrikcije"
+
+#: wplogin_redirect.php:1352
+msgid "Any http or https URL"
+msgstr "Bilo koji http ili https URL"
+
+#: wplogin_redirect.php:1353
+#, fuzzy
+msgid "Any URL"
+msgstr "URL"
+
+#: wplogin_redirect.php:1354
+msgid "Any URL on the same domain"
+msgstr "Bilo koji URL"
+
+#: wplogin_redirect.php:1360
+msgid ""
+"Allow a POST or GET &#34;redirect_to&#34; variable to take redirect "
+"precedence"
+msgstr ""
+"Dozvoli POST ili  GET &#34;redirect_to&#34; varijable da bi redirektovale "
+"prisustvo"
+
+#: wplogin_redirect.php:1364 wplogin_redirect.php:1375
+#: wplogin_redirect.php:1387
+msgid "Yes"
+msgstr "Da"
+
+#: wplogin_redirect.php:1365 wplogin_redirect.php:1376
+#: wplogin_redirect.php:1388
+msgid "No"
+msgstr "Ne"
+
+#: wplogin_redirect.php:1371
+msgid ""
+"Allow a POST or GET &#34;redirect_to&#34; logout variable to take redirect "
+"precedence"
+msgstr ""
+"Dozvoli POST ili  GET &#34;redirect_to&#34; logout varijable da bi "
+"redirektovale prisustvo"
+
+#: wplogin_redirect.php:1383
+#, php-format
+msgid ""
+"Use external redirect file. Set this to &#34;Yes&#34; if you are using a "
+"plugin such as Gigya that bypasses the regular WordPress redirect process "
+"(and allows only one fixed redirect URL). Then, set the redirect URL to %s"
+msgstr ""
+"Kristite external redirekovani fajl. Podesite ovo na &#34;Yes&#34; ako "
+"koristite plugin kao što je Gigya koji prelazi regularni WordPress "
+"redirektovani proces (i samo dozvoljava namešteni redirektovani URL). Zatim, "
+"namesti redirekt URL na %s"
+
+#: wplogin_redirect.php:1394
+msgid "Permission level required to edit redirect URLs"
+msgstr "Nivo sa dozvolom je potrebno za editovanje redirektovanje URLs"

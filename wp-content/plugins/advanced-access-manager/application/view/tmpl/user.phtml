@@ -1,0 +1,40 @@
+<?php
+/**
+ * ======================================================================
+ * LICENSE: This file is subject to the terms and conditions defined in *
+ * file 'license.txt', which is part of this source code package.       *
+ * ======================================================================
+ */
+?>
+<div id="user_manager_wrap">
+    <table id="user_list">
+        <thead>
+            <tr>
+                <th>User ID</th>
+                <th>User Login</th>
+                <th width="60%"><?php echo __('Username', 'aam'); ?></th>
+                <th><?php echo __('Action', 'aam'); ?></th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <div id="filter_user_dialog" class="aam-dialog" title="<?php echo __('Filter Users by Role', 'aam'); ?>">
+        <table id="filter_role_list">
+            <thead>
+                <tr>
+                    <th>Role ID</th>
+                    <th>User Count</th>
+                    <th width="80%"><?php echo __('Role Name', 'aam'); ?></th>
+                    <th><?php echo __('Action', 'aam'); ?></th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+    <div id="delete_user_dialog" class="aam-dialog" title="<?php echo __('Delete User', 'aam'); ?>">
+        <span class="dialog-content"></span>
+    </div>
+</div>

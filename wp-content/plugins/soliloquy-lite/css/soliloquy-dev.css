@@ -1,0 +1,268 @@
+/* Resets
+------------------------------------------------------------ */
+
+.soliloquy-container a:active,
+.soliloquy-container .soliloquy a:active {
+	outline: none !important;
+}
+
+.soliloquy-container .soliloquy .soliloquy-slides,
+.soliloquy-container .soliloquy .soliloquy-slides li,
+.soliloquy-container .soliloquy-control-nav,
+.soliloquy-container .soliloquy-control-nav li,
+.soliloquy-container .soliloquy-direction-nav,
+.soliloquy-container .soliloquy-direction-nav li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+/* Soliloquy necessary styles
+------------------------------------------------------------ */
+
+.soliloquy-container {
+	margin: 0;
+	position: relative;
+	width: 100%;
+	zoom: 1;
+}
+
+.soliloquy-container .soliloquy-viewport {
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	max-height: 2000px;
+	transition: all 1s ease;
+}
+
+.soliloquy-container .soliloquy {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	zoom: 1;
+}
+
+.soliloquy-container .soliloquy .soliloquy-slides > li {
+	display: none;
+}
+
+.soliloquy-container .soliloquy .soliloquy-slides img {
+	display: block;
+	max-width: 100%;
+}
+
+
+/* Clearfix for slides
+------------------------------------------------------------ */
+
+.soliloquy-container .soliloquy-slides:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+}
+
+html[xmlns] .soliloquy-container .soliloquy-slides {
+	display: block;
+}
+
+* html .soliloquy-container .soliloquy-slides {
+	height: 1%;
+}
+
+
+/* No JS fallback
+------------------------------------------------------------ */
+
+.no-js .soliloquy-slides > li:first-child {
+	display: block;
+}
+
+
+/* Soliloquy image styling
+------------------------------------------------------------ */
+
+.soliloquy-container .soliloquy .soliloquy-slides {
+	zoom: 1;
+}
+
+.soliloquy-container .soliloquy .soliloquy-slides > li {
+	position: relative;
+}
+
+.soliloquy-container .soliloquy .soliloquy-slides > li a {
+	display: block;
+}
+
+.soliloquy-container .soliloquy-caption {
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	width: 100%;
+	zoom: 1;
+}
+
+.soliloquy-container .soliloquy-caption .soliloquy-caption-inside {
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+	background: rgba(0, 0, 0, .5);
+	color: #fff;
+	display: block;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4C000000,endColorstr=#4C000000);
+	font-size: 14px;
+	line-height: 18px;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, .3);
+	zoom: 1;
+}
+
+.soliloquy-container .soliloquy-caption .soliloquy-caption-inside a {
+	position: relative;
+	z-index: 20;
+}
+
+
+/* Soliloquy directional navigation
+------------------------------------------------------------ */
+
+.soliloquy-container .soliloquy-direction-nav {
+	background: url('images/slider-arrows-horizontal.png') no-repeat scroll -9999px -9999px;
+	display: none;
+	height: 0;
+	list-style: none;
+}
+
+.soliloquy-container:hover .soliloquy-direction-nav,
+.soliloquy-container.soliloquy-hover .soliloquy-direction-nav {
+	display: block;
+}
+
+.soliloquy-container .soliloquy-direction-nav li a {
+	border: 0 none;
+	display: block;
+	outline: none;
+	z-index: 30;
+}
+
+.soliloquy-container .soliloquy-direction-nav li .soliloquy-next {
+	background: url('images/slider-arrows-horizontal.png') no-repeat scroll 0 -18px;
+	height: 18px;
+	margin-top: -8px;
+	right: 10px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 50%;
+	width: 13px;
+	z-index: 30;
+}
+
+.soliloquy-container .soliloquy-direction-nav li .soliloquy-prev {
+	background: url('images/slider-arrows-horizontal.png') no-repeat scroll 0 0;
+	height: 18px;
+	left: 10px;
+	margin-top: -8px;
+	position: absolute;
+	text-indent: -9999px;
+	top: 50%;
+	width: 13px;
+	z-index: 30;
+}
+
+.soliloquy-container .soliloquy-direction-nav li .disabled,
+.soliloquy-container .soliloquy-direction-nav li .soliloquy-disabled {
+	cursor: default;
+	filter: alpha(opacity=30);
+	opacity: .3;
+}
+
+
+/* Soliloquy control navigation
+------------------------------------------------------------ */
+
+.soliloquy-container .soliloquy-control-nav {
+	background: url('images/slider-dots.png') no-repeat scroll -9999px -9999px;
+	bottom: 10px;
+	line-height: 0;
+	list-style: none;
+	margin-left: 5px;
+	position: absolute;
+	z-index: 30;
+}
+
+.soliloquy-container .soliloquy-control-nav li {
+	display: inline-block;
+	*display: inline;
+	margin: 0 0 0 5px;
+	zoom: 1;
+}
+
+.soliloquy-container .soliloquy-control-nav li a {
+	background: url('images/slider-dots.png') no-repeat scroll 0 0;
+	cursor: pointer;
+	display: block;
+	float: left;
+	height: 14px;
+	position: relative;
+	text-indent: -9999px;
+	width: 14px;
+	z-index: 50;
+}
+
+.soliloquy-container .soliloquy-control-nav li a:hover,
+.soliloquy-container .soliloquy-control-nav li a.active,
+.soliloquy-container .soliloquy-control-nav li a.soliloquy-active {
+	background-position: 0 -14px;
+}
+
+
+/* Responsive Design
+------------------------------------------------------------ */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+
+	.soliloquy-container .soliloquy-direction-nav li .soliloquy-next {
+		background: url('images/slider-arrows-horizontal@2x.png') no-repeat scroll 0 -20px;
+		background-size: 100%;
+	}
+
+	.soliloquy-container .soliloquy-direction-nav li .soliloquy-prev {
+		background: url('images/slider-arrows-horizontal@2x.png') no-repeat scroll 0 0;
+		background-size: 100%;
+	}
+
+	.soliloquy-container .soliloquy-control-nav li a {
+		background: url('images/slider-dots@2x.png') no-repeat scroll 0 0;
+		background-size: 100%;
+		height: 15px;
+	}
+
+	.soliloquy-container .soliloquy-control-nav li a:hover,
+	.soliloquy-container .soliloquy-control-nav li a.active,
+	.soliloquy-container .soliloquy-control-nav li a.soliloquy-active {
+		background-position: 0 -15px;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+	.soliloquy-container .soliloquy-caption-inside {
+		font-size: 12px;
+	}
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	.soliloquy-container .soliloquy-caption-inside {
+		bottom: auto;
+		top: 0;
+	}
+
+}

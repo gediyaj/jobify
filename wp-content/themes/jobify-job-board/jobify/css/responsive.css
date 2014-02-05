@@ -1,0 +1,732 @@
+@media (max-width: 1180px) {
+	/**
+	 * Structure
+	 */
+	body,
+	html {
+		min-width: 100%;
+	}
+
+	.container,
+	.site-content.full,
+	.site-main .textwidget {
+		width: 90%;
+	}
+
+	/**
+	 * Navigation
+	 */
+	.site-branding {
+		position: absolute;
+		left: 50%;
+
+		-webkit-transform: translateX(-50%);
+		-moz-transform:    translateX(-50%);
+		transform:         translateX(-50%);
+	}
+
+	.site-branding.open {
+		text-align: center;
+		float: none;
+		display: block;
+		margin: 0 auto;
+		position: relative;
+		left: auto;
+		-webkit-transform: translateX(0);
+		-moz-transform: translateX(0);
+		transform: translateX(0);
+	}
+
+	.site-branding.open span {
+		float: none;
+	}
+
+	.primary-menu-toggle {
+		display: block;
+		float: left;
+	}
+
+	.site-primary-navigation .primary-menu-toggle {
+		position: relative;
+		display: none;
+	}
+
+	.site-primary-navigation.open .primary-menu-toggle {
+		display: block;
+	}
+
+	.site-primary-navigation .primary-menu-toggle span {
+		text-transform: uppercase;
+		font: bold 14px/normal 'Montserrat', sans-serif;
+	}
+
+	.site-primary-navigation .primary-menu-toggle i {
+		font-size: 26px;
+		vertical-align: middle;
+	}
+
+	.site {
+		z-index: 1;
+	}
+
+	.site-primary-navigation {
+		max-height: 0px;
+		overflow: hidden;
+		position: absolute;
+		top: 50%;
+		left: auto;
+		right: 0;
+		float: none;
+		-webkit-transition: max-height 0.3s;
+		-moz-transition: max-height 0.3s;
+		transition: max-height 0.3s;
+	}
+
+	.site-primary-navigation.open {
+		max-height: 2000px;
+		top: auto;
+		right: auto;
+		position: static;
+		z-index: 101;
+		background: rgba(0, 0, 0, .60);
+		margin-bottom: 50px;
+		padding-bottom: 20px;
+		-webkit-transform: translate(0, 0);
+		-moz-transform: translate(0, 0);
+		transform: translate(0, 0);
+	}
+
+	.admin-bar .site-primary-navigation {
+		top: 28px;
+	}
+
+	.mp6.admin-bar .site-primary-navigation {
+		top: 32px;
+	}
+
+	.site-primary-navigation.close {
+		z-index: 1;
+	}
+
+	.site-primary-navigation .primary-menu-toggle {
+		color: #fff;
+		float: none;
+	}
+
+	.primary-menu-toggle.in-header.open {
+		display: none;
+	}
+
+	.site-primary-navigation .nav-menu-primary li {
+		margin: 0;
+		float: none;
+	}
+
+	.site-primary-navigation .nav-menu-primary li a {
+		font: normal 20px 'Varela Round', sans-serif;
+		text-transform: none;
+		padding: 10px 0;
+		border: 0;
+	}
+
+	.site-primary-navigation a:hover {
+		text-decoration: none !important;
+	}
+
+	.site-primary-navigation #searchform {
+		margin: 12px 0 22px;
+		display: none;
+	}
+
+	.site-primary-navigation.open #searchform {
+		display: block;
+	}
+
+	.site-primary-navigation #searchform div {
+		position: relative;
+	}
+
+	.site-primary-navigation #searchform input[type="text"] {
+		padding-left: 40px;
+		color: #fff;
+		width: 100%;
+		height: 40px;
+		background: rgba(0, 0, 0, .10);
+		border-radius: 20px;
+		border: 0;
+	}
+
+	.site-primary-navigation #searchform button {
+		padding: 2px 5px;
+		line-height: 39px;
+		font-size: 23px;
+		background: none;
+		left: 0;
+		position: absolute;
+		border: 0;
+	}
+
+	.site-primary-navigation #searchform button:hover {
+		border: 0;
+	}
+
+	.nav-menu-primary .sub-menu,
+	.nav-menu-primary .children {
+		display: block;
+		padding: 0;
+		position: relative;
+		top: auto;
+		left: auto;
+		z-index: 99999;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+		box-shadow: none;
+		-webkit-transform: translate(0, 0);
+		-ms-transform:     translate(0, 0);
+		transform:         translate(0, 0);
+	}
+
+	.nav-menu-primary .sub-menu li,
+	.nav-menu-primary .children li {
+		margin: 0;
+		padding: 0;
+	}
+
+	.nav-menu-primary .sub-menu li:last-child,
+	.nav-menu-primary .children li:last-child {
+		border-bottom: 0;
+	}
+
+	ul.nav-menu-primary ul a,
+	.nav-menu-primary ul ul a,
+	.primary-menu-toggle span {
+		font: normal 20px 'Varela Round', sans-serif;
+		text-transform: none;
+		padding: 10px 0;
+		border: 0;
+		line-height: 1;
+		text-align: left;
+		margin: 0;
+		padding: 10px 0;
+		width: auto;
+		display: block;
+	}
+
+	.primary-menu-toggle span {
+		display: inline-block;
+	}
+
+	.nav-menu-primary li.has-children a:after {
+		 content: '';
+	}
+
+	.nav-menu-primary li.has-children ul {
+		margin-left: 18px;
+	}
+
+	.nav-menu-primary li.has-children ul a {
+		font-size: 16px;
+	}
+
+	/**
+	 * Content Slider
+	 */
+	.soliloquy-caption-wrap,
+	.soliloquy-image-wrap {
+		text-align: center;
+		width: 100%;
+		float: none;
+	}
+
+	.soliloquy-caption-wrap {
+		padding-bottom: 0;
+	}
+
+	body .soliloquy-container .soliloquy-caption .soliloquy-caption-inside {
+		text-align: center;
+	}
+
+	.jobify_widget_slider a.button-secondary {
+		float: none;
+	}
+
+	body .soliloquy-container .soliloquy-direction-nav,
+	.soliloquy-container:hover .soliloquy-direction-nav,
+	.soliloquy-container.soliloquy-hover .soliloquy-direction-nav {
+		display: none !important;
+	}
+
+	/**
+	 * Hero Slider
+	 */
+	.jobify_widget_slider_hero .soliloquy-caption-wrap {
+		left: 5%;
+		width: auto;
+		margin-left: 0;
+		text-align: left;
+		padding: 0;
+	}
+
+	.jobify_widget_slider_hero .soliloquy-caption {
+		max-width: 80%;
+	}
+
+	body .jobify_widget_slider_hero .soliloquy-container .soliloquy-caption .soliloquy-caption-inside {
+		text-align: left;
+	}
+
+	.jobify_widget_slider_hero .soliloquy-caption-wrap a.button {
+		font-size: 15px;
+		padding: 10px 20px;
+		border-radius: 4px;
+	}
+
+	/**
+	 * Jobs
+	 */
+	.recent-jobs.has-spotlight,
+	.job-spotlight {
+		width: 100%;
+		float: none;
+	}
+
+	.recent-jobs.has-spotlight {
+		margin-bottom: 48px;
+	}
+
+	.single-job-spotlight-content {
+		padding: 5%;
+	}
+}
+
+@media (max-width: 800px) {
+	.homepage-widget {
+		margin: 80px 0;
+	}
+
+	.entry-content {
+		max-width: 100%;
+	}
+
+	.btt {
+		display: none;
+	}
+
+	/**
+	 * Hero Slider
+	 */
+	.jobify_widget_slider_hero .soliloquy-caption-wrap {
+		font-size: 18px;
+	}
+
+	.jobify_widget_slider_hero .soliloquy-caption-wrap a.button {
+		font-size: 12px;
+		padding: 5px 10px;
+		border-radius: 4px;
+	}
+
+	/**
+	 * Jobs
+	 */
+	.job_listing .location,
+	li.type-resume .candidate-location-column {
+		display: none;
+	}
+
+	.job_listing .meta,
+	li.type-resume .resume-meta {
+		width: 40%;
+	}
+
+	.search_jobs,
+	.wp-job-manager-tags .search_jobs,
+	.search_resumes {
+		padding: 5%;
+	}
+
+	.search_jobs > *,
+	.wp-job-manager-categories .search_jobs > *,
+	.wp-job-manager-tags .search_jobs input[type="submit"],
+	.resume_filters .search_resumes > *,
+	.wp-job-manager-categories .resume_filters .search_resumes > div {
+		float: none;
+		width: 100%;
+		margin-bottom: 5%;
+	}
+
+	.search_jobs input[type="submit"],
+	.search_resumes input[type="submit"] {
+		width: 100%;
+	}
+
+	.search_resumes input[type="submit"] {
+		margin-bottom: 0;
+	}
+
+	.job_types li {
+		width: 50%;
+		border-bottom: 1px solid #ccc;
+	}
+
+	.job_types li:last-child,
+	.job_types li:nth-last-child(1) {
+		border-bottom: 0;
+	}
+
+	/**
+	 * Stats
+	 */
+	.job-stats {
+		padding-bottom: 0;
+	}
+
+	.job-stat {
+		width: 49%;
+		border-right: 0;
+		border-top: 1px solid #eee;
+		padding: 60px;
+	}
+
+	/**
+	 * Price Table
+	 */
+	.pricing-table-widget-1 > div,
+	.pricing-table-widget-2 > div,
+	.pricing-table-widget-3 > div,
+	.pricing-table-widget-4 > div,
+	.pricing-table-widget-5 > div {
+		margin-bottom: 48px;
+		width: 100%;
+		float: none;
+	}
+
+	/**
+	 * Video
+	 */
+	.video-description,
+	.video-preview,
+	.callout-action,
+	.callout-description,
+	.content-grid .hentry {
+		width: 100%;
+		float: none;
+	}
+
+	/**
+	 * Callout
+	 */
+	.jobify_widget_callout {
+		text-align: center;
+	}
+
+	.callout-description,
+	.content-grid .hentry {
+		margin-bottom: 24px;
+	}
+
+	/**
+	 * Content Grid
+	 */
+	.content-grid .entry-header img {
+		min-width: 100%;
+	}
+
+	/**
+	 * Blog
+	 */
+	.entry-header,
+	.entry,
+	.comments-area {
+		float: none;
+		width: 100%;
+	}
+
+	/**
+	 * Misc
+	 */
+	.companies-overview .company-group {
+		width: 48%;
+		margin-right: 2%;
+		margin-bottom: 2%;
+	}
+}
+
+@media screen and (max-width: 782px) {
+	.mp6.admin-bar .site-primary-navigation {
+		top: 46px;
+	}
+}
+
+@media (max-width: 600px) {
+	.homepage-widget {
+		margin: 60px 0;
+	}
+
+	.map-filter .search_location,
+	.map-filter .search_category {
+		display: none !important;
+	}
+
+	/**
+	 * Hero Slider
+	 */
+	.jobify_widget_slider_hero .soliloquy-caption {
+		max-width: 80%;
+	}
+
+	.jobify_widget_slider_hero .soliloquy-caption-wrap .soliloquy-caption-title {
+		font-size: 24px;
+		margin-bottom: 0;
+	}
+
+	body .jobify_widget_slider_hero .soliloquy-container .soliloquy-caption .soliloquy-caption-inside {
+		font-size: 14px;
+	}
+
+	.jobify_widget_slider_hero .soliloquy-caption-wrap p {
+		font-size: 16px;
+		margin-bottom: 18px;
+	}
+
+	/**
+	 * Content Slider
+	 */
+	body .soliloquy-container .soliloquy .soliloquy-slides > li {
+		padding: 0 40px;
+	}
+
+	/**
+	 * Stats
+	 */
+	.job-stats {
+		padding-bottom: 0;
+	}
+
+	.job-stat {
+		width: 49%;
+		border-right: 0;
+		border-top: 1px solid #eee;
+		padding: 20px;
+	}
+
+	/**
+	 * Footer
+	 */
+	.footer-widgets {
+		padding: 40px 0 80px;
+	}
+
+	.footer-widget,
+	.footer-widget:first-child {
+		width: 100%;
+		float: none;
+		margin: 0 0 48px;
+	}
+
+	.copyright {
+		overflow: visible;
+	}
+
+	.site-info {
+		text-align: center;
+		float: none;
+	}
+
+	.footer-social {
+		text-align: center;
+		margin: 2em 0 0;
+		float: none;
+		width: 100%;
+	}
+
+	/**
+	 * Job
+	 */
+	.job-overview-content .job-overview,
+	.single-resume-content .resume_description {
+		float: none;
+		width: 100%;
+	}
+
+	.job-overview-content .job-company-about,
+	.single-resume-content .resume-content {
+		width: 70%;
+		float: left;
+	}
+
+	.job-overview-content .job-meta,
+	.single-resume-content .resume-aside {
+		width: 22%;
+		float: right;
+	}
+}
+
+@media (max-width: 400px) {
+	/**
+	 * Navigation
+	 */
+	.site-branding {
+		text-align: center;
+		width: 100%;
+		position: relative;
+		left: auto;
+
+		-webkit-transform: translatex(0);
+		-moz-transform:    translatex(0);
+		transform:         translatex(0);
+	}
+
+	.site-title {
+		font-size: 24px;
+	}
+
+	.site-title span,
+	.site-title img {
+		float: none;
+	}
+
+	.primary-menu-toggle.in-header {
+		position: absolute;
+		top: 45%;
+		z-index: 100;
+
+		-webkit-transform: translateY(-50%);
+		-moz-transform:    translateY(-50%);
+		transform:         translateY(-50%);
+	}
+
+	.site-header {
+		padding: 20px 0;
+	}
+
+	.homepage-widget {
+		margin: 40px 0;
+	}
+
+	.homepage-widget-title {
+		font-size: 30px;
+		margin-bottom: 30px;
+	}
+
+	/**
+	 * Jobs
+	 */
+	.job_listing .position {
+		width: 70%;
+	}
+
+	.job_listing .meta {
+		display: none;
+	}
+
+	/**
+	 * Hero Slider
+	 */
+	.jobify_widget_slider_hero .soliloquy-caption-wrap .soliloquy-caption-title {
+		font-size: 20px;
+		margin: 0;
+	}
+
+	body .jobify_widget_slider_hero .soliloquy-container .soliloquy-caption .soliloquy-caption-inside {
+		font-size: 13px;
+		line-height: 16px;
+	}
+
+	.jobify_widget_slider_hero .soliloquy-caption-wrap p {
+		margin-bottom: 8px;
+	}
+
+	.jobify_widget_slider_hero .soliloquy-caption {
+		max-width: 95%;
+	}
+
+	/**
+	 * Misc/Jobs
+	 */
+	.page-subtitle {
+		margin: -15px 25px 25px;
+	}
+
+	.page-subtitle li {
+		display: block;
+		padding: 0;
+		margin: 10px 0;
+		border: 0;
+	}
+
+	.job-overview-content .job-company-about,
+	.job-overview-content .job-meta,
+	.single-resume-content .resume-info,
+	.single-resume-content .resume-aside {
+		width: 100%;
+		float: none;
+	}
+
+	.job-overview-content .job-meta .meta {
+		display: block;
+	}
+
+	.job_types li {
+		width: 100%;
+		border-bottom: 1px solid #ccc;
+		float: none;
+	}
+
+	.job-manager-form .fieldset-job_type,
+	.job-manager-form .fieldset-job_category,
+	.job-manager-form .fieldset-company_name,
+	.job-manager-form .fieldset-company_website,
+	.job-manager-form .fieldset-company_twitter,
+	.job-manager-form .fieldset-company_facebook,
+	.job-manager-form .fieldset-company_google,
+	.rcp_user_fieldset p {
+		width: 100%;
+		float: none;
+	}
+
+	.companies-overview .company-group {
+		width: 100%;
+		margin-right: 0%;
+		margin-bottom: 24px;
+	}
+
+	/**
+	 * Blog
+	 */
+	.entry-author img {
+		height: 50px;
+		width: 50px;
+		margin-right: 10px;
+		float: left;
+	}
+
+	.entry-meta {
+		margin: 4px 0;
+	}
+
+	.comment-avatar {
+		display: none;
+	}
+
+	.comment-meta,
+	.comment-content,
+	.comment-awaiting-moderation {
+		margin-left: 0;
+	}
+
+	#searchform input[type="text"] {
+		width: 55%;
+	}
+
+	#searchform input[type="submit"] {
+		width: 40%;
+	}
+
+	.testimonial-slider-wrap {
+		padding: 0;
+	}
+
+	#jobify-map-canvas {
+		height: 300px;
+	}
+}

@@ -1,0 +1,844 @@
+# Copyright (C) 2014 Astoundify
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Jobify 1.5.2\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/jobify\n"
+"POT-Creation-Date: 2014-01-29 23:03:14+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:13
+msgid "Page Not Found"
+msgstr ""
+
+#: archive-job_listing.php:12 inc/widgets/map.php:92
+msgid "All Jobs"
+msgstr ""
+
+#: archive-resume.php:12
+msgid "All Rèsumès"
+msgstr ""
+
+#: archive.php:14
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:16
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:16
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:18
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:18
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:21
+msgid "Author: %s"
+msgstr ""
+
+#: archive.php:26
+msgid "Blog Archives"
+msgstr ""
+
+#: comments.php:24
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:45
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:46
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:47
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: contact-details.php:3 contact-details.php:6
+msgid "Contact"
+msgstr ""
+
+#: contact-details.php:11
+msgid "Contact via the resume for \"%s\" on %s"
+msgstr ""
+
+#: contact-details.php:16 job-application.php:17
+msgid "To apply for this job <strong>email your details to</strong> <a class=\"job_application_email\" href=\"mailto:%1$s%2$s\">%1$s</a>"
+msgstr ""
+
+#: content-grid.php:23 content.php:53
+msgid "0 Comments"
+msgstr ""
+
+#: content-grid.php:23 content.php:53
+msgid "1 Comment"
+msgstr ""
+
+#: content-grid.php:23 content.php:53
+msgid "% Comments"
+msgstr ""
+
+#: content-none.php:12
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:16
+msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr ""
+
+#: content-none.php:21
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: content-share.php:11
+msgctxt "1: Article title 2: Site Name 3: Site URL"
+msgid "Check out %1$s on %2$s! %3$s"
+msgstr ""
+
+#: content-share.php:24
+msgid "Share"
+msgstr ""
+
+#: content-single-job-related.php:36
+msgid "Related Jobs"
+msgstr ""
+
+#: content-single-job.php:19
+msgid "Posted <date>%s</date> ago"
+msgstr ""
+
+#: content-single-job_listing.php:15
+msgid "This job listing has expired"
+msgstr ""
+
+#: content-single-job_listing.php:20
+msgid "This position has been filled"
+msgstr ""
+
+#: content-single-job_listing.php:25
+msgid "Overview"
+msgstr ""
+
+#: content-single-job_listing.php:32
+msgid "About %s"
+msgstr ""
+
+#: content-single-job_listing.php:57 single-company.php:45
+msgid "Company Details"
+msgstr ""
+
+#: content-single-job_listing.php:67 single-company.php:55
+msgid "Website"
+msgstr ""
+
+#: content-single-job_listing.php:74 single-company.php:62
+msgid "Twitter"
+msgstr ""
+
+#: content-single-job_listing.php:81 single-company.php:69
+msgid "Facebook"
+msgstr ""
+
+#: content-single-job_listing.php:88 single-company.php:76
+msgid "Google+"
+msgstr ""
+
+#: content-single-job_listing.php:99
+msgid "More jobs by %s"
+msgstr ""
+
+#: content-single-job_listing.php:99
+msgid "More Jobs"
+msgstr ""
+
+#: content-single-resume.php:5 inc/job-manager.php:125
+#: inc/widgets/companies.php:29
+msgid "Description"
+msgstr ""
+
+#: content-single-resume.php:13
+msgid "Skills"
+msgstr ""
+
+#: content-single-resume.php:20
+msgid "Education"
+msgstr ""
+
+#: content-single-resume.php:40
+msgid "Experience"
+msgstr ""
+
+#: content-single-the-resume.php:9
+msgid "Updated %s ago"
+msgstr ""
+
+#: content.php:31
+msgid "Tags:"
+msgstr ""
+
+#: content.php:32
+msgid "Pages:"
+msgstr ""
+
+#: content.php:37
+msgid "Continue Reading"
+msgstr ""
+
+#: content.php:45
+msgid "Written by <a class=\"author-link\" href=\"%s\" rel=\"author\">%s</a>"
+msgstr ""
+
+#: footer.php:35
+msgid "&copy; %1$s %2$s &mdash; All Rights Reserved"
+msgstr ""
+
+#: form-register.php:12 form-register.php:21
+msgid "(optional)"
+msgstr ""
+
+#: form-register.php:28
+msgid "Already have an account? <a href=\"%s\">Login</a>"
+msgstr ""
+
+#: functions.php:50
+msgid "<strong>Notice:</strong> To take advantage of all of the great features Jobify offers, please install the %s. <a href=\"%s\" class=\"alignright\">Hide this message.</a>"
+msgstr ""
+
+#: functions.php:116
+msgid "Navigation Menu"
+msgstr ""
+
+#: functions.php:117
+msgid "Footer Social"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not
+#. 	 * supported by Montserrat, translate this to 'off'. Do not translate
+#. 	 * into your own language.
+
+#: functions.php:163
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not
+#. 	 * supported by Varela Round, translate this to 'off'. Do not translate
+#. into your
+#. 	 * own language.
+
+#: functions.php:169
+msgctxt "Varela Round font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:378
+msgid "Page %s"
+msgstr ""
+
+#: functions.php:424
+msgid "Homepage Widget Area"
+msgstr ""
+
+#: functions.php:426
+msgid "Choose what should display on the custom static homepage."
+msgstr ""
+
+#: functions.php:434
+msgid "Footer Widget Area"
+msgstr ""
+
+#: functions.php:436
+msgid "Display columns of widgets in the footer."
+msgstr ""
+
+#: functions.php:445 inc/widgets/price-table.php:16
+msgid "Price Table"
+msgstr ""
+
+#: functions.php:447
+msgid "Drag multiple \"Price Option\" widgets here. Then drag the \"Pricing Table\" widget to the \"Homepage Widget Area\"."
+msgstr ""
+
+#: functions.php:646
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:646 functions.php:667
+msgid "Edit"
+msgstr ""
+
+#: functions.php:660
+msgctxt "comment author \"on\" date"
+msgid "on"
+msgstr ""
+
+#: functions.php:665
+msgctxt "on 1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:669
+msgid "Reply"
+msgstr ""
+
+#: functions.php:674
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: header.php:45
+msgid "Close"
+msgstr ""
+
+#: inc/job-manager-form-register.php:29 inc/job-manager-form-register.php:184
+#: rcp/register.php:123
+msgid "Register"
+msgstr ""
+
+#: inc/job-manager-form-register.php:71
+msgid "Your Name"
+msgstr ""
+
+#: inc/job-manager-form-register.php:78
+msgid "Email Address"
+msgstr ""
+
+#: inc/job-manager-form-register.php:81
+msgid "recruiter@company.com"
+msgstr ""
+
+#: inc/job-manager-form-register.php:85 rcp/register.php:108
+msgid "Password"
+msgstr ""
+
+#: inc/job-manager-form-register.php:96
+msgid "About You"
+msgstr ""
+
+#: inc/job-manager-form-register.php:101
+msgid "I&#39;m an employeer looking to hire"
+msgstr ""
+
+#: inc/job-manager-form-register.php:102
+msgid "I&#39;m a candidate looking for a job"
+msgstr ""
+
+#: inc/job-manager-form-register.php:140
+msgid "%s is a required field"
+msgstr ""
+
+#: inc/job-manager-form-register.php:214
+msgid "Your email address isn&#8217;t correct."
+msgstr ""
+
+#: inc/job-manager-form-register.php:217
+msgid "This email is already registered, please choose another one."
+msgstr ""
+
+#: inc/job-manager.php:133
+msgid "Facebook username"
+msgstr ""
+
+#: inc/job-manager.php:136 inc/job-manager.php:144
+msgid "yourcompany"
+msgstr ""
+
+#: inc/job-manager.php:141
+msgid "Google+ username"
+msgstr ""
+
+#: inc/job-manager.php:175
+msgid "Company Description"
+msgstr ""
+
+#: inc/job-manager.php:181
+msgid "Company Facebook"
+msgstr ""
+
+#: inc/job-manager.php:186
+msgid "Company Google+"
+msgstr ""
+
+#: inc/job-manager.php:320
+msgctxt "login for submit label"
+msgid "Sign In"
+msgstr ""
+
+#: inc/job-manager.php:339
+msgid "Forgot Password?"
+msgstr ""
+
+#: inc/job-manager.php:468
+msgid "Search"
+msgstr ""
+
+#: inc/theme-customizer.php:47
+msgctxt "Theme customizer section title"
+msgid "General"
+msgstr ""
+
+#: inc/theme-customizer.php:52
+msgctxt "Theme customizer section title"
+msgid "Call to Action"
+msgstr ""
+
+#: inc/theme-customizer.php:75
+msgid "Enable Responsive Design"
+msgstr ""
+
+#: inc/theme-customizer.php:82
+msgid "Primary Color"
+msgstr ""
+
+#: inc/theme-customizer.php:89
+msgid "Display Call to Action Box"
+msgstr ""
+
+#: inc/theme-customizer.php:94
+msgid "Text"
+msgstr ""
+
+#: inc/theme-customizer.php:99
+msgid "Text Color"
+msgstr ""
+
+#: inc/theme-customizer.php:104
+msgid "Background Color"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:14
+msgid "Display recent blog posts."
+msgstr ""
+
+#: inc/widgets/blog-posts.php:16
+msgid "Blog Posts"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:20
+msgid "Recent News Article"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:21 inc/widgets/jobs.php:21
+#: inc/widgets/price-option.php:21 inc/widgets/price-table-rcp.php:23
+#: inc/widgets/price-table-wc.php:23 inc/widgets/price-table.php:21
+#: inc/widgets/stats.php:21 inc/widgets/testimonials.php:23
+#: inc/widgets/video.php:21
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/blog-posts.php:27 inc/widgets/callout.php:22
+#: inc/widgets/price-option.php:32 inc/widgets/price-table-rcp.php:29
+#: inc/widgets/price-table-wc.php:29 inc/widgets/price-table.php:27
+#: inc/widgets/stats.php:28 inc/widgets/testimonials.php:29
+#: inc/widgets/video.php:27
+msgid "Description:"
+msgstr ""
+
+#: inc/widgets/callout.php:14
+msgid "Display call-out area with a bit of text and a button."
+msgstr ""
+
+#: inc/widgets/callout.php:16
+msgid "Callout"
+msgstr ""
+
+#: inc/widgets/callout.php:27
+msgid "Button Label:"
+msgstr ""
+
+#: inc/widgets/callout.php:32
+msgid "Button URL:"
+msgstr ""
+
+#: inc/widgets/companies.php:16
+msgid "Display a slider of company logos you have helped find jobs."
+msgstr ""
+
+#: inc/widgets/companies.php:18
+msgid "Companies Helped"
+msgstr ""
+
+#: inc/widgets/companies.php:22
+msgid "Companies We&#39;ve Helped"
+msgstr ""
+
+#: inc/widgets/companies.php:23
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/companies.php:37
+msgid "Number of companies to show."
+msgstr ""
+
+#: inc/widgets/jobs.php:14
+msgid "Output a list of sortable jobs."
+msgstr ""
+
+#: inc/widgets/jobs.php:16
+msgid "Jobs"
+msgstr ""
+
+#: inc/widgets/jobs.php:20
+msgid "Recent Jobs"
+msgstr ""
+
+#: inc/widgets/jobs.php:29
+msgid "Number of jobs to show:"
+msgstr ""
+
+#: inc/widgets/jobs.php:34
+msgid "Display the \"Job Spotlight\" section"
+msgstr ""
+
+#: inc/widgets/jobs.php:76
+msgid "Job Spotlight"
+msgstr ""
+
+#: inc/widgets/map.php:14
+msgid "Display a map with pins indicating areas with active job listings."
+msgstr ""
+
+#: inc/widgets/map.php:16
+msgid "Job Map"
+msgstr ""
+
+#: inc/widgets/map.php:21
+msgid "Display search/filtering options"
+msgstr ""
+
+#: inc/widgets/map.php:26
+msgid "Zoom Level:"
+msgstr ""
+
+#: inc/widgets/map.php:28
+msgid "Auto"
+msgstr ""
+
+#: inc/widgets/map.php:50
+msgid "Center Coordinates (optional):"
+msgstr ""
+
+#: inc/widgets/map.php:55
+msgid "Coordinates must be set to respect zoom level. Otherwise the map will automatically be set to the bounds of the latest jobs."
+msgstr ""
+
+#: inc/widgets/map.php:91
+msgid "Keywords"
+msgstr ""
+
+#: inc/widgets/map.php:95
+msgid "Location"
+msgstr ""
+
+#: inc/widgets/map.php:96
+msgid "Any Location"
+msgstr ""
+
+#: inc/widgets/map.php:100
+msgid "Category"
+msgstr ""
+
+#: inc/widgets/map.php:102
+msgid "All Job Categories"
+msgstr ""
+
+#: inc/widgets/map.php:227
+msgctxt "Job title at Company Name"
+msgid "%s at %s"
+msgstr ""
+
+#: inc/widgets/price-option.php:14
+msgid "Create a price option for the pricing table."
+msgstr ""
+
+#: inc/widgets/price-option.php:16
+msgid "Price Option"
+msgstr ""
+
+#: inc/widgets/price-option.php:20 inc/widgets/video.php:20
+msgid "Basic Listing"
+msgstr ""
+
+#: inc/widgets/price-option.php:26
+msgid "Color:"
+msgstr ""
+
+#: inc/widgets/price-table-rcp.php:16
+msgid "Outputs subscription options for Restrict Content Pro"
+msgstr ""
+
+#: inc/widgets/price-table-rcp.php:18
+msgid "RCP Price Table"
+msgstr ""
+
+#: inc/widgets/price-table-rcp.php:22 inc/widgets/price-table-wc.php:22
+#: inc/widgets/price-table.php:20
+msgid "Plans and Pricing"
+msgstr ""
+
+#: inc/widgets/price-table-rcp.php:82 rcp/register.php:32
+msgid "free"
+msgstr ""
+
+#: inc/widgets/price-table-rcp.php:84 rcp/register.php:34
+msgid "unlimited"
+msgstr ""
+
+#: inc/widgets/price-table-wc.php:16
+msgid "Outputs Job Packages from WooCommerce"
+msgstr ""
+
+#: inc/widgets/price-table-wc.php:18
+msgid "WooCommerce Job Packages"
+msgstr ""
+
+#: inc/widgets/price-table-wc.php:96 package-selection.php:48
+#: woocommerce.php:47
+msgid "%d job"
+msgid_plural "%s jobs"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/widgets/price-table-wc.php:98 woocommerce.php:49
+msgid "for %s day"
+msgid_plural "for %s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/widgets/price-table-wc.php:107 woocommerce.php:58
+msgid "Add to cart"
+msgstr ""
+
+#: inc/widgets/price-table.php:14
+msgid "Output the price table (based on the \"Price Table\" widget area)"
+msgstr ""
+
+#: inc/widgets/price-table.php:31
+msgid "Drag \"Price Option\" widgets to the \"Price Table\" widget area to populate this widget."
+msgstr ""
+
+#: inc/widgets/slider-hero.php:14
+msgid "Display a \"Hero\" Soliloquy slider."
+msgstr ""
+
+#: inc/widgets/slider-hero.php:16
+msgid "Solioquy Hero Slider"
+msgstr ""
+
+#: inc/widgets/slider-hero.php:20 inc/widgets/slider.php:22
+msgid "Slider:"
+msgstr ""
+
+#: inc/widgets/slider.php:16
+msgid "Display a Soliloquy slider with captions."
+msgstr ""
+
+#: inc/widgets/slider.php:18
+msgid "Solioquy Content Slider"
+msgstr ""
+
+#: inc/widgets/slider.php:28
+msgid "Background Image URL:"
+msgstr ""
+
+#: inc/widgets/slider.php:143
+msgid "Retina Images"
+msgstr ""
+
+#: inc/widgets/slider.php:146
+msgid "Load images for retina (upload <code>@2x</code> images)"
+msgstr ""
+
+#: inc/widgets/stats.php:14
+msgid "Display useful statistics about your website."
+msgstr ""
+
+#: inc/widgets/stats.php:16
+msgid "Stats"
+msgstr ""
+
+#: inc/widgets/stats.php:20
+msgid "Site Stats"
+msgstr ""
+
+#: inc/widgets/stats.php:33 inc/widgets/testimonials.php:47
+#: inc/widgets/video.php:37
+msgid "Enable jQuery animations"
+msgstr ""
+
+#: inc/widgets/stats.php:96
+msgid "Job Posted"
+msgid_plural "Jobs Posted"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/widgets/stats.php:100
+msgid "Position Filled"
+msgid_plural "Positions Filled"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/widgets/stats.php:104
+msgid "Company"
+msgid_plural "Companies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/widgets/stats.php:108
+msgid "Member"
+msgid_plural "Members"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/widgets/testimonials.php:16
+msgid "Display a slider of all the people you have helped."
+msgstr ""
+
+#: inc/widgets/testimonials.php:18
+msgid "Testimonials"
+msgstr ""
+
+#: inc/widgets/testimonials.php:22
+msgid "Kind Words From Happy Campers"
+msgstr ""
+
+#: inc/widgets/testimonials.php:37
+msgid "Number of testimonials:"
+msgstr ""
+
+#: inc/widgets/testimonials.php:42
+msgid "Background Image:"
+msgstr ""
+
+#: inc/widgets/video.php:14
+msgid "Display a video via oEmbed with a title and description."
+msgstr ""
+
+#: inc/widgets/video.php:16
+msgid "Video"
+msgstr ""
+
+#: inc/widgets/video.php:32
+msgid "Video URL:"
+msgstr ""
+
+#: index.php:19
+msgctxt "blog page title"
+msgid "Blog"
+msgstr ""
+
+#: job-application.php:4 job-application.php:7
+msgid "Apply"
+msgstr ""
+
+#: job-application.php:22
+msgid "To apply for this job please visit the following URL: <a href=\"%1$s\">%1$s &rarr;</a>"
+msgstr ""
+
+#: package-selection.php:5
+msgid "Your Existing Packages"
+msgstr ""
+
+#: package-selection.php:19
+msgid "%s job posted out of %d"
+msgid_plural "%s jobs posted out of %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: package-selection.php:21 package-selection.php:50
+msgid "listed for %s day"
+msgid_plural "listed for %s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: package-selection.php:63
+msgid "No packages found"
+msgstr ""
+
+#: rcp/register.php:5
+msgid "Register New Account"
+msgstr ""
+
+#: rcp/register.php:9
+msgid "Upgrade Your Subscription"
+msgstr ""
+
+#: rcp/register.php:21
+msgid "Choose your subscription level"
+msgstr ""
+
+#: rcp/register.php:46
+msgid "You have not created any subscription levels yet"
+msgstr ""
+
+#: rcp/register.php:53
+msgid "Discount Code"
+msgstr ""
+
+#: rcp/register.php:54
+msgid "Valid"
+msgstr ""
+
+#: rcp/register.php:55
+msgid "Invalid"
+msgstr ""
+
+#: rcp/register.php:72
+msgid "Choose Your Payment Method"
+msgstr ""
+
+#: rcp/register.php:92
+msgid "Username"
+msgstr ""
+
+#: rcp/register.php:96
+msgid "Email"
+msgstr ""
+
+#: rcp/register.php:100
+msgid "First Name"
+msgstr ""
+
+#: rcp/register.php:104
+msgid "Last Name"
+msgstr ""
+
+#: rcp/register.php:112
+msgid "Password Again"
+msgstr ""
+
+#: single-company.php:15
+msgid "Jobs at %s"
+msgstr ""
+
+#: single-company.php:17
+msgid "%d Job Available"
+msgid_plural "%d Jobs Available"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce.php:28
+msgid "Job Packages"
+msgstr ""

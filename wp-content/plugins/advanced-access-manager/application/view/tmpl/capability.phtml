@@ -1,0 +1,76 @@
+<?php
+/**
+ * ======================================================================
+ * LICENSE: This file is subject to the terms and conditions defined in *
+ * file 'license.txt', which is part of this source code package.       *
+ * ======================================================================
+ */
+?>
+<div class="feature-content-container" id="capability_content">
+    <table id="capability_list">
+        <thead>
+            <tr>
+                <th>Capability ID</th>
+                <th>Checked</th>
+                <th width="35%"><?php echo __('Category', 'aam'); ?></th>
+                <th width="50%"><?php echo __('Capability', 'aam'); ?></th>
+                <th><?php echo __('Control', 'aam'); ?></th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <div id="filter_capability_dialog" class="aam-dialog" title="<?php echo __('Filter Capability List', 'aam'); ?>">
+        <table id="capability_group_list">
+            <thead>
+                <tr>
+                    <th><?php echo __('Group Name', 'aam'); ?></th>
+                    <th><?php echo __('Select', 'aam'); ?></th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php foreach ($this->getGroupList() as $group) { ?>
+                    <tr>
+                        <td><?php echo $group; ?></td>
+                        <td>
+                            <div class="capability-actions">
+                                <a href="#" class="capability-action capability-action-select"></a>
+                            </div>
+                        </td>
+                    </tr>
+                <?php } ?>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="copy_role_dialog" class="aam-dialog" title="<?php echo __('Inherit Capabilities', 'aam'); ?>">
+        <table id="copy_role_list">
+            <thead>
+                <tr>
+                    <th>Role ID</th>
+                    <th>User Count</th>
+                    <th width="80%"><?php echo __('Role Name', 'aam'); ?></th>
+                    <th><?php echo __('Action', 'aam'); ?></th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <div class="aam-metabox-loader"></div>
+    </div>
+
+    <div id="capability_form_dialog" class="aam-dialog" title="<?php echo __('Add New Capability', 'aam'); ?>">
+        <table class="dataTable">
+            <tbody>
+                <tr>
+                    <th><?php echo __('Capability Name', 'aam'); ?><span class="aam-asterix">*</span>:</th>
+                    <td><input type="text" id="capability_name" class="aam-input" /></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="aam-metabox-loader"></div>
+    </div>
+
+    <div id="delete_capability" class="aam-dialog" title="<?php echo __('Delete Capability', 'aam'); ?>">
+        <p class="dialog-content"></p>
+    </div>
+</div>

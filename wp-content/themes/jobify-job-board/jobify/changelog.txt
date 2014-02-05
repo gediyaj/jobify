@@ -1,0 +1,77 @@
+== Changelog ==
+
+= 1.5.2: January 29, 2014 =
+
+* Fix: Make sure Gravity Forms load properly.
+* Fix: Make sure roles are assigned properly.
+* Tweak: Various tweaks and improvements for a more stable experience.
+
+= 1.5.1: January 23, 2014 =
+
+* New: Select role when registering if using Resume Manager
+* Fix: Avoid testimonial archives breaking when not using the widget.
+* Fix: Make sure all taxonomy archives load properly.
+
+= 1.5: January 20, 2014 =
+
+* New: Support for Resumes Addon
+* New: Support for 3rd-level dropdowns.
+* New: Add LinkedIn to share popup.
+* New: On the Map + Jobs Page template hide the map search and update when searching through the Jobs table.
+* Fix: Various addon support improvements.
+* Tweak: Various tweaks and improvements for a more stable experience.
+
+= 1.4.3: December 11, 2013 =
+
+* Fix: Avoid errors with the map widget.
+* Fix: Show user packages first (to stay consistent with WP Job Manager)
+* Fix: Make sure addons can display extra information in content-single-job.php
+
+= 1.4.2: November 17, 2013 =
+
+* Fix: When a job listing is updated clear the location cache just in case.
+* Fix: Map javascript error that may cause the search from not showing.
+* Fix: Make sure the map widget zoom levels show in the correct order.
+* Tweak: RCP style compatability.
+* Tweak: Change the animation on modals.
+* Tweak: Change the animation on site stats widget.
+* Tweak: Remove the "Load More Jobs" when using the jobs widget on the homepage.
+* Tweak: Various tweaks and improvements for a more stable experience.
+
+= 1.4.1: October 19, 2013 =
+
+* New: Map + Jobs Page Template
+* Fix: Related jobs are now based on categories which are standard.
+* Fix: Better support for browsers on the mobile menu.
+* Fix: Don't crop company testimonial logos.
+* Fix: Various tweaks and improvements for a more stable experience.
+
+= 1.4: September 14, 2013 =
+
+* New: Support for WP Job Manager WooCommerce Paid Listings (http://mikejolley.com/projects/wp-job-manager/add-ons/woocommerce-paid-listings/)
+* New: Styling for WP Job Manager Alerts (http://mikejolley.com/projects/wp-job-manager/add-ons/job-alerts/)
+* New: Related Jobs below single job view.
+* Fix: Filter WP Job Manager to use the login shortcode page, not standard WordPress
+* Fix: When using RCP, allow the proper HTML to go through the description.
+* Fix: Various tweaks and improvements for a more stable experience.
+
+= 1.3: August 25, 2013 =
+
+* New: Footer social menu items are now controlled through a custom menu. Instead of links in the Customizer, assign a menu to the footer, and add custom social links.
+* New: jQuery Animations can be toggled on/off for certain widgets. You may need to resave their options.
+* Fix: Various tweaks and improvements for a more stable experience.
+
+= 1.2: August 15, 2013 =
+
+* New: Support for Apply with Gravity Forms for WP Job Manager
+* Fix: Various other tweaks and improvements.
+
+= 1.1: July 30, 2013 =
+
+* New: Add support for WP Job Manager Company Profiles (https://github.com/Astoundify/wp-job-manager-companies)
+* New: Add a search button the the job filters (can still search on enter or unfocus)
+* Fix: Properly save custom extra custom fields on frontend submission.
+
+= 1.0: July 25, 2013 =
+
+First release!

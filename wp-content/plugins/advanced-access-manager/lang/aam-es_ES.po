@@ -1,0 +1,998 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Access Manager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-12-01 14:07-0500\n"
+"PO-Revision-Date: 2014-01-03 18:30-0300\n"
+"Last-Translator: Esteban Truelsegaard <esteban@netmdp.com>\n"
+"Language-Team: Vasyl Martyniuk <whimba@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: aam.php:243 aam.php:248 aam.php:267
+msgid "Access denied"
+msgstr "Acceso Denegado"
+
+#: aam.php:691 aam.php:692
+msgid "AAM"
+msgstr "Permisos AAM"
+
+#: aam.php:701 aam.php:702
+msgid "Access Control"
+msgstr "Control de Accesos"
+
+#: aam.php:709 aam.php:710
+msgid "Extensions"
+msgstr "Extensiones"
+
+#: application/view/capability.php:98 application/view/capability.php:179
+msgid "System"
+msgstr "Sistema"
+
+#: application/view/capability.php:99 application/view/capability.php:181
+msgid "Post & Page"
+msgstr "Entrada & Página"
+
+#: application/view/capability.php:100 application/view/capability.php:183
+msgid "Backend Interface"
+msgstr "Backend Interface"
+
+#: application/view/capability.php:101
+msgid "Miscellaneous"
+msgstr "Misceláneo"
+
+#: application/view/capability.php:185
+msgid "Miscelaneous"
+msgstr "Misceláneo"
+
+#: application/view/manager.php:59
+msgid "Roles"
+msgstr "Roles"
+
+#: application/view/manager.php:60
+msgid "Role Manager"
+msgstr "Administrar Roles"
+
+#: application/view/manager.php:68
+msgid "Users"
+msgstr "Usuarios"
+
+#: application/view/manager.php:69
+msgid "User Manager"
+msgstr "Administrar Usuario"
+
+#: application/view/manager.php:77
+msgid "Visitor"
+msgstr "Visita"
+
+#: application/view/manager.php:78
+msgid "Visitor Manager"
+msgstr "Administrar Visitas"
+
+#: application/view/manager.php:95
+msgid "Admin Menu"
+msgstr "Menú principal"
+
+#: application/view/manager.php:98
+msgid ""
+"Control Access to Admin Menu. Restrict access to entire Menu or Submenu. "
+"<b>Notice</b>, the menu is rendered based on Role's or User's capabilities."
+msgstr ""
+"Control de Accesos al Menu Admin.  Restringe accesos a todo el Menú o por "
+"Submenú. <b>Nota</b>, el menú es mostrado basado en el Rol o capabilities "
+"del Usuario."
+
+#: application/view/manager.php:103
+msgid "Metabox & Widget"
+msgstr "Metabox & Widget"
+
+#: application/view/manager.php:106
+msgid ""
+"Filter the list of Metaboxes or Widgets for selected Role or User. If "
+"metabox or widget is not listed, try to click <b>Refresh the List</b> button "
+"or Copy & Paste direct link to page where specific metabox or widget is "
+"shown and hit <b>Retrieve Metaboxes from Link</b> button."
+msgstr ""
+"Filtrar lista de Metaboxes o Widgets para el Rol o Usuario seleccionado. Si "
+"el metabox o widget no está listado, intente clickeando el botón "
+"<b>Actualizar Lista</b> o Copie & Pegue el link directo a la página donde se "
+"muestra el metabox o widget y toque el botón <b>Recuperar Metaboxes desde "
+"link</b>."
+
+#: application/view/manager.php:111
+msgid "Capability"
+msgstr "Capability"
+
+#: application/view/manager.php:114
+msgid ""
+"Manage the list of Capabilities for selected User or Role. <b>Notice</b>, "
+"list of user's capabilities are inherited from user's Role.<br/><b>Warning!</"
+"b> Be very careful with capabilities. Deleting or unchecking any capability "
+"may cause temporary or permanent constrol lost over some features or "
+"WordPress dashboard."
+msgstr ""
+"Administrar lista de Capabilities para el Usuario o Rol seleccionado.  "
+"<b>Nota</b>, la lista de capacidades se heredan del Rol de usuario. <br/"
+"><b>Cuidado!</b> Sea cuidadoso con las capacidades.  Borrar o desmarcar una "
+"capability puede causar perdida de control temporal o permanente sobre "
+"alguna característica o el panel de Wordpress."
+
+#: application/view/manager.php:119
+msgid "Posts & Categories"
+msgstr "Entradas & Taxonomias"
+
+#: application/view/manager.php:122
+msgid ""
+"Manage access to individual <b>Post</b> or <b>Term</b>. Notice, under "
+"<b>Post</b>, we assume any post, page or custom post type. And under "
+"<b>Term</b> - any term like Post Categories."
+msgstr ""
+"Administrar acceso sobre <b>Entrada</b> o <b>Taxonomía</b> individual. Nota, "
+"bajo <b>Entrada</b>,  se asume cualquier post, página o custom post type.  Y "
+"bajo <b>Taxonomía</b>, cualquier término como Categorías de Entradas."
+
+#: application/view/manager.php:127
+msgid "Event Manager"
+msgstr "Administrar Eventos"
+
+#: application/view/manager.php:130
+msgid ""
+"Define your own action when some event appeared in your WordPress blog. This "
+"sections allows you to trigger an action on event like post content change, "
+"or page status update. You can setup to send email notification, change the "
+"post status or write your own custom event handler."
+msgstr ""
+"Define su propia acción cuando ocurre algún evento en su blog.  Esta sección "
+"le permite agregar una acción a un evento como cambio de contenido de una "
+"entrada, o el estado de actualización de una página.  Puede enviar una "
+"notificación por e-mail, cambiar el estado de la entrada o escribir su "
+"propio manejador de eventos."
+
+#: application/view/manager.php:135
+msgid "ConfigPress"
+msgstr "Configuración"
+
+#: application/view/manager.php:138
+msgid ""
+"Control <b>AAM</b> behavior with ConfigPress. For more details please check "
+"<b>ConfigPress tutorial</b>."
+msgstr ""
+"Controle el comportamiento de <b>AAM</b> con ConfigPress. Para mas detalles "
+"mire <b>ConfigPress tutorial</b>."
+
+#: application/view/manager.php:342
+msgid "Rollback Settings"
+msgstr "Recuperar Valores"
+
+#: application/view/manager.php:343
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: application/view/manager.php:344
+msgid "Send E-mail"
+msgstr "Enviar email"
+
+#: application/view/manager.php:345 application/view/manager.php:351
+msgid "Add New Role"
+msgstr "Agregar Nuevo Rol"
+
+#: application/view/manager.php:346
+msgid "Manage"
+msgstr "Administrar"
+
+#: application/view/manager.php:347
+msgid "Edit"
+msgstr "Editor"
+
+#: application/view/manager.php:348
+msgid "Delete"
+msgstr "Borrar"
+
+#: application/view/manager.php:349
+msgid "Filtered"
+msgstr "Filtrado"
+
+#: application/view/manager.php:350
+msgid "Clear"
+msgstr "Limpìar"
+
+#: application/view/manager.php:352
+msgid "Save Changes"
+msgstr "Grabar Cambios"
+
+#: application/view/manager.php:353
+#, php-format
+msgid ""
+"System detected %d user(s) with this role. All Users with Role <b>%s</b> "
+"will be deleted automatically!"
+msgstr ""
+"El sistema ha detectado %d usuario(s) con este rol. ¡Todos los Usuarios con "
+"Rol <b>%s</b> serán borrados automáticamente!"
+
+#: application/view/manager.php:354
+#, php-format
+msgid "Are you sure that you want to delete role <b>%s</b>?"
+msgstr "Está seguro de borrar el rol <b>%s</b>?"
+
+#: application/view/manager.php:355
+msgid "Delete Role"
+msgstr "Borrar Rol"
+
+#: application/view/manager.php:356
+msgid "Add User"
+msgstr "Agregar Usuario"
+
+#: application/view/manager.php:357
+msgid "Filter Users"
+msgstr "Filtrar Usuarios"
+
+#: application/view/manager.php:358 application/view/manager.php:374
+msgid "Refresh List"
+msgstr "Refrescar Lista"
+
+#: application/view/manager.php:359
+msgid "Block"
+msgstr "Bloquear"
+
+#: application/view/manager.php:360
+#, php-format
+msgid "Are you sure you want to delete user <b>%s</b>?"
+msgstr "Está seguro de borrar el usuario <b>%s</b>?"
+
+#: application/view/manager.php:361
+msgid "Filter Capabilities by Category"
+msgstr "Filtrar Capabilities por Categoría"
+
+#: application/view/manager.php:362
+msgid "Inherit Capabilities"
+msgstr "Inherit Capabilities"
+
+#: application/view/manager.php:363
+msgid "Add New Capability"
+msgstr "Agregar nueva Capability"
+
+#: application/view/manager.php:364
+#, php-format
+msgid "Are you sure that you want to delete capability <b>%s</b>?"
+msgstr "Por favor confirme el borrado de Capability - <b>%s</b>"
+
+#: application/view/manager.php:365
+msgid "Delete Capability"
+msgstr "Borrar Capability"
+
+#: application/view/manager.php:366
+msgid "Select Role"
+msgstr "Seleccionar Rol"
+
+#: application/view/manager.php:367
+msgid "Add Capability"
+msgstr "Agregar Capability"
+
+#: application/view/manager.php:368
+msgid "Add Event"
+msgstr "Agregar Evento"
+
+#: application/view/manager.php:369
+msgid "Edit Event"
+msgstr "Editar Evento"
+
+#: application/view/manager.php:370 application/view/manager.php:372
+msgid "Delete Event"
+msgstr "Borrar Evento"
+
+#: application/view/manager.php:371
+msgid "Save Event"
+msgstr "Salvar Evento"
+
+#: application/view/manager.php:373
+msgid "Filter Posts by Post Type"
+msgstr "Filtrar Entradas por Post Type"
+
+#: application/view/manager.php:375
+msgid "Restore Default"
+msgstr "Restaurar valores por defecto"
+
+#: application/view/manager.php:376
+msgid "Apply"
+msgstr "Aplicar Todo"
+
+#: application/view/manager.php:377
+msgid "Edit Term"
+msgstr "Editar Term"
+
+#: application/view/manager.php:378
+msgid "Manager Access"
+msgstr "Administrar Accesos"
+
+#: application/view/manager.php:379
+msgid "Unlock Default Accesss Control"
+msgstr "Desbloquear Control de Accesos por Defecto"
+
+#: application/view/manager.php:380
+msgid "Close"
+msgstr "Cerrar"
+
+#: application/view/manager.php:381
+msgid "Edit Role"
+msgstr "Editar Rol"
+
+#: application/view/metabox.php:179
+msgid "Dashboard Widgets"
+msgstr "Metaboxes & Widgets"
+
+#: application/view/metabox.php:183
+msgid "Frontend Widgets"
+msgstr "Frontend Widgets"
+
+#: application/view/post.php:181
+msgid "[empty]"
+msgstr "[vaciar]"
+
+#: application/view/post.php:345 application/view/post.php:353
+msgid "All"
+msgstr "Todo"
+
+#~ msgid "Password Protected"
+#~ msgstr "Protegido por contraseña"
+
+#~ msgid "Public"
+#~ msgstr "Público"
+
+#~ msgid "Advanced Access Manager"
+#~ msgstr "Administrador de Accesos"
+
+#~ msgid "Alert"
+#~ msgstr "Alerta"
+
+#~ msgid "Options updated successfully"
+#~ msgstr "Opciones guardadas"
+
+#~ msgid "Drag and Drop Menu in the List and click <b>Save Order</b>"
+#~ msgstr ""
+#~ "Para Reorganizar el menu sólo arrastre y suelte Items en la lista y "
+#~ "clickee  <b>Salvar Orden</b>"
+
+#~ msgid "Reorganize"
+#~ msgstr "Reorganizar"
+
+#~ msgid "Whole Branch"
+#~ msgstr "Toda la Rama"
+
+#~ msgid ""
+#~ "To initialize list of metaboxes manually, copy and paste the URL to edit "
+#~ "screen page (e.g. http://localhost/wp-admin/post.php?post=1&action=edit) "
+#~ "into text field and click \"Initiate URL\". List of all new metaboxes "
+#~ "will be added automatically."
+#~ msgstr ""
+#~ "Para inicializar la lista de metaboxes manualmente, copie y pegue la URL "
+#~ "a la pag. admin en este sitio en el campo de texto y clickee \"Iniciar URL"
+#~ "\".  La lista de todas las metaboxes nuevas serán agregadas "
+#~ "automaticamente."
+
+#~ msgid "Enter Correct URL"
+#~ msgstr "Ingrese URL correcta"
+
+#~ msgid "Initialize URL"
+#~ msgstr "Inicializar URL"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Priority"
+#~ msgstr "Prioridad"
+
+#~ msgid "Position"
+#~ msgstr "Posición"
+
+#~ msgid "Restrict"
+#~ msgstr "Restringir"
+
+#~ msgid "List of Metaboxes is empty or not initialized."
+#~ msgstr "La lista de metaboxes esta vacía o no inicializada."
+
+#~ msgid "Initialize the List"
+#~ msgstr "Inicializar la Lista"
+
+#~ msgid "Error"
+#~ msgstr "Error"
+
+#~ msgid "Role Administrator's List of Capabilities"
+#~ msgstr "Dar lista de Capabilities de Administrador"
+
+#~ msgid "Administrator"
+#~ msgstr "Administrador"
+
+#~ msgid "Role Editor's List of Capabilities"
+#~ msgstr "Dar lista de Capabilities de Editor"
+
+#~ msgid "Role Author's List of Capabilities"
+#~ msgstr "Dar lista de Capabilities de Autor"
+
+#~ msgid "Author"
+#~ msgstr "Autor"
+
+#~ msgid "Role Contributor's List of Capabilities"
+#~ msgstr "Dar lista de Capabilities de Contribuidor"
+
+#~ msgid "Contributor"
+#~ msgstr "Contribuidor"
+
+#~ msgid "Role Subscriber's List of Capabilities"
+#~ msgstr "Dar lista de Capabilities de Suscriptor"
+
+#~ msgid "Subscriber"
+#~ msgstr "Suscriptor"
+
+#~ msgid "Collapse All"
+#~ msgstr "Colapsar Todo"
+
+#~ msgid "Expand All"
+#~ msgstr "Expandir Todo"
+
+#~ msgid "Error during saving"
+#~ msgstr "Error mientras guardaba"
+
+#~ msgid "Apply Restrictions Only for Current Role or User"
+#~ msgstr "Aplicar Restricciones solo para el Rol o Usuario Actual"
+
+#~ msgid "Apply Restrictions for All Roles"
+#~ msgstr "Aplicar valores para TODOS los Roles de Usuario ?"
+
+#~ msgid "Apply for All"
+#~ msgstr "Aplicar para Todo"
+
+#~ msgid "Select Post, Page or Taxonomy"
+#~ msgstr "Seleccionar Entrada, Página o Taxonomía"
+
+#~ msgid "Click to toggle"
+#~ msgstr "Click para intercambiar"
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "Current Role"
+#~ msgstr "Rol Actual"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Saving..."
+#~ msgstr "Salvando..."
+
+#~ msgid "Save"
+#~ msgstr "Salvar"
+
+#~ msgid "Enter New Role"
+#~ msgstr "Ingrese Nuevo Rol"
+
+#~ msgid "Add"
+#~ msgstr "Agregar"
+
+#~ msgid "New Role Created successfully"
+#~ msgstr "Nuevo Rol creado"
+
+#~ msgid "Role can not be created"
+#~ msgstr "El Rol no puede ser creado"
+
+#~ msgid "Delete Role?"
+#~ msgstr "Borrar Rol ?"
+
+#~ msgid "Please confirm deleting Role %s"
+#~ msgstr "Por favor confirme el borrado del Rol %s"
+
+#~ msgid "Save Menu Order"
+#~ msgstr "Salvar Orden del Menú?"
+
+#~ msgid "Save Menu Order <b>ONLY</b> for Role %s?"
+#~ msgstr "Le gustaría salvar el orden del Menú <b>SOLO</b> para el Rol %s?"
+
+#~ msgid "Delete Capability?"
+#~ msgstr "Borrar Capability?"
+
+#~ msgid "Restore Default Settings?"
+#~ msgstr "Restaurar valores por defecto de Rol?"
+
+#~ msgid "All current settings will be lost. Are you sure?"
+#~ msgstr "Todos los valores actuales se perderán.  Está seguro?"
+
+#~ msgid "Apply Setting for ALL Roles?"
+#~ msgstr "Aplicar valores para TODOS los Roles de Usuario ?"
+
+#~ msgid "Do you really want to apply these settings to <b>ALL</b> Roles?"
+#~ msgstr ""
+#~ "Realmente quiere aplicar estos valores para <b>TODOS</b> los Roles de "
+#~ "Usuario ?"
+
+#~ msgid "Do not show me this message again"
+#~ msgstr "No mostrarme este mensaje otra vez."
+
+#~ msgid "Description"
+#~ msgstr "Posición"
+
+#~ msgid "Upgrade functionality"
+#~ msgstr "Actualizar funcionalidad"
+
+#~ msgid "Important Message"
+#~ msgstr "Mensaje Importante"
+
+#~ msgid "No Description found"
+#~ msgstr "No se encontró descripción"
+
+#~ msgid "WARNING"
+#~ msgstr "WARNING"
+
+#~ msgid ""
+#~ "Advanced Access Manager requires WordPress 3.2 or newer. <a href=\"http://"
+#~ "codex.wordpress.org/Upgrading_WordPress\">Update now!</a>"
+#~ msgstr ""
+#~ "Advanced Access Manager requiere WordPress 3.1 o mayor. <a href=\"http://"
+#~ "codex.wordpress.org/Upgrading_WordPress\">Update now!</a>"
+
+#~ msgid "Advanced Access Manager requires PHP 5.1.2 or newer"
+#~ msgstr "Advanced Access Manager requiere PHP 5.0 o superior"
+
+#~ msgid "Empty Capability"
+#~ msgstr "Borrar Capability"
+
+#~ msgid "Current Capability can not be deleted"
+#~ msgstr "Capability Actual no puede ser borrada"
+
+#~ msgid "Super Admin"
+#~ msgstr "Super Admin"
+
+#~ msgid "Unauthorized Action"
+#~ msgstr "Acción no Autorizada"
+
+#~ msgid "Options List"
+#~ msgstr "Lista de Opciones"
+
+#~ msgid "Yes"
+#~ msgstr "Si"
+
+#~ msgid "Error appeared during Metabox initialization!"
+#~ msgstr "Aparece un error durante la inicialización Metabox!"
+
+#~ msgid "Restore"
+#~ msgstr "Restaurar"
+
+#~ msgid "Current Role can not be restored!"
+#~ msgstr "Rol actual no puede ser restaurado!"
+
+#~ msgid "Apply All"
+#~ msgstr "Aplicar Todo"
+
+#~ msgid "Error during information grabbing!"
+#~ msgstr "Error during information grabbing!"
+
+#~ msgid "Premium"
+#~ msgstr " "
+
+#~ msgid "Create"
+#~ msgstr "Crear"
+
+#~ msgid "Do not Create"
+#~ msgstr "No Crear"
+
+#~ msgid "Change Role"
+#~ msgstr "Cambiar Rol"
+
+#~ msgid "Current Site"
+#~ msgstr "Sitio Actual"
+
+#~ msgid ""
+#~ "cURL library returned empty result. Contact your system administrator to "
+#~ "fix this issue."
+#~ msgstr ""
+#~ "cURL library returned empty result. Contact your system administrator to "
+#~ "fix this issue."
+
+#~ msgid ""
+#~ "You are not an active user for current blog. Please click <a href=\"#\" "
+#~ "id=\"add-user-toblog\">here</a> to add yourself to current blog as "
+#~ "Administrator"
+#~ msgstr ""
+#~ "No es un usuario activo para el blog Actual.   Por favor clickea <a href="
+#~ "\"#\" id=\"add-user-toblog\">aquí</a> para agregarte como admin del blog "
+#~ "actual"
+
+#~ msgid "Basic"
+#~ msgstr " "
+
+#~ msgid "Administrator added Successfully"
+#~ msgstr "Administrador agregado"
+
+#~ msgid "Failed to add new Administrator"
+#~ msgstr "Falla al agregar Administrador"
+
+#~ msgid "Click for more information"
+#~ msgstr "Click para Tooltip"
+
+#~ msgid "Current User"
+#~ msgstr "Usuario Actual"
+
+#~ msgid "Delete current capability"
+#~ msgstr "Borrar Capability"
+
+#~ msgid "Read more..."
+#~ msgstr "Leer Más..."
+
+#~ msgid "Restore Default Settings"
+#~ msgstr "Restaurar valores por defecto de Rol?"
+
+#~ msgid ""
+#~ "Check Menu or Submenu to restrict or <b>Whole Branch</b> to restrict "
+#~ "whole menu."
+#~ msgstr ""
+#~ "Marque Menú o Sub-menú para restringir el acceso o <b>Toda la Rama</b> "
+#~ "para restringir el acceso a todo el menú."
+
+#~ msgid ""
+#~ "Only Latin letters, numbers and space are allowed. All other symbols will "
+#~ "be filtered.<br/>New Capability will be added to Super Admin and Admin "
+#~ "Roles automatically."
+#~ msgstr ""
+#~ "Sólo se permiten letras, números y espacios. Todo lo demás será filtrado."
+#~ "<br/>La nueva Capability se agregará automáticamente a los roles Super "
+#~ "Admin y Admin."
+
+#~ msgid "Enter New Capability"
+#~ msgstr "Agregar nueva Capability"
+
+#~ msgid "Would you like to restore default restrictions?"
+#~ msgstr "Quiere restaurar los permisos por defecto ?"
+
+#~ msgid "Restore Restrictions"
+#~ msgstr "Restaurar valores por defecto de Rol?"
+
+#~ msgid "Posts in %s"
+#~ msgstr "Entradas en %s"
+
+#~ msgid "Information"
+#~ msgstr "Información"
+
+#~ msgid "Refresh"
+#~ msgstr "Refrescar"
+
+#~ msgid "Frontend"
+#~ msgstr "Frontend"
+
+#~ msgid "Backend"
+#~ msgstr "Backend"
+
+#~ msgid "List"
+#~ msgstr "Lista de Roles"
+
+#~ msgid "Exclude"
+#~ msgstr "Excluir Página"
+
+#~ msgid "Read"
+#~ msgstr "Leer"
+
+#~ msgid "Trash"
+#~ msgstr "Papelera"
+
+#~ msgid "Install Plugin"
+#~ msgstr "Instalar Plugin"
+
+#~ msgid "Publish"
+#~ msgstr "Público"
+
+#~ msgid "Comment"
+#~ msgstr "Comentario"
+
+#~ msgid "Browse"
+#~ msgstr "Mostrar"
+
+#~ msgid "Worth checking"
+#~ msgstr "Chequeo de errores"
+
+#~ msgid "Additional features available"
+#~ msgstr "Características adicionales"
+
+#~ msgid "You have a JavaScript Error on a page"
+#~ msgstr "Tiene un error Javascript en una página"
+
+#~ msgid "For support send an email to address"
+#~ msgstr "Para soporte envíe un email a"
+
+#~ msgid "Add New Cap"
+#~ msgstr "Agregar Cap"
+
+#~ msgid "Title"
+#~ msgstr "Título"
+
+#~ msgid "This is the title of selected Post or Page"
+#~ msgstr "Este es el título del Post o Página seleccionada"
+
+#~ msgid "Selected item's type"
+#~ msgstr "Tipo de Item seleccionado"
+
+#~ msgid "Type"
+#~ msgstr "Tipo"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Current Post or Page Status"
+#~ msgstr "Estado actual del Post o Página"
+
+#~ msgid "Visibility"
+#~ msgstr "Visibilidad"
+
+#~ msgid "Visibility of current Post or Page"
+#~ msgstr "Visibilidad del Post o Página Actual"
+
+#~ msgid "Restrict Admin"
+#~ msgstr "Restringir Admin"
+
+#~ msgid "Restrict access to current Post or Page on BackEnd"
+#~ msgstr "Restringir acceso al Post o Página actual en el BackEnd"
+
+#~ msgid "Restrict Front"
+#~ msgstr "Restringir Frente"
+
+#~ msgid "Restrict access to current Post or Page on FrontEnd"
+#~ msgstr "Restringir acceso al Post o Página actual en el FrontEnd"
+
+#~ msgid "Just Exclude page from navitation but do not restrict access"
+#~ msgstr "Sólo Excluye la página de la navegación pero no restringe el acceso"
+
+#~ msgid "Expire"
+#~ msgstr "Expirar"
+
+#~ msgid ""
+#~ "If Restric is checked then restrict access to current Post or Page until "
+#~ "the picked date. If Restrict is unchecked then allow access to Page or "
+#~ "Post until the picked date"
+#~ msgstr ""
+#~ "Si Restringir está checkeado entonces restringe acceso al post o página "
+#~ "actual hasta la fecha elegida.  Si Restringir no está checkeado entonces "
+#~ "permite acceso al post o página actual hasta la fecha elegida."
+
+#~ msgid "Update info only for current role"
+#~ msgstr "Actualizar info sólo para el rol actual"
+
+#~ msgid "Update Current"
+#~ msgstr "Actualizar"
+
+#~ msgid "Update info for all role"
+#~ msgstr "Actualizar info para todos los roles"
+
+#~ msgid "Update All"
+#~ msgstr "Actualziar todo"
+
+#~ msgid "Category"
+#~ msgstr "Categoría"
+
+#~ msgid "Category title"
+#~ msgstr "Título de categoría"
+
+#~ msgid "This is just a type of post's taxonomy. Always Category"
+#~ msgstr "Esto es sólo un tipo de taxonomía de post.  Siempre Category"
+
+#~ msgid "Posts"
+#~ msgstr "Posts"
+
+#~ msgid "Number of posts current category has"
+#~ msgstr "Número de posts que tiene la categoría actual"
+
+#~ msgid ""
+#~ "Restrict access to current category and for all Sub Categories on "
+#~ "BackEnd. Also it'll restrict access to all posts under these categories"
+#~ msgstr ""
+#~ "Restringir acceso a la categoría actual y a todas las subcategorías en el "
+#~ "BackEnd.  También restringirá acceso a todos los posts bajo estas "
+#~ "categorías"
+
+#~ msgid ""
+#~ "Restrict access to current category and for all Sub Categories on "
+#~ "FrontEnd. Also it'll restrict access to all posts under these categories"
+#~ msgstr ""
+#~ "Restringir acceso a la categoría actual y a todas las subcategorías en el "
+#~ "FrontEnd.  También restringirá acceso a todos los posts bajo estas "
+#~ "categorías"
+
+#~ msgid ""
+#~ "If Restric is checked then restrict access to current Category and all "
+#~ "Sub Categories, and Posts since the picked date. If Restrict is unchecked "
+#~ "then allow access to current Category and all Sub Categories, and Posts "
+#~ "since the picked date"
+#~ msgstr ""
+#~ "Si Restringir está checkeado entonces restringe acceso a la categoría "
+#~ "actual y sus subcategorías, y Posts desde la fecha elegida.   Si "
+#~ "Restringir no está checkeado entonces permite acceso a la categoría "
+#~ "actual y sus subcategorías, y Posts hasta la fecha elegida."
+
+#~ msgid "Select a proper Page, Post or Category."
+#~ msgstr "Seleccionar una página, Post, o Categoría adecuada."
+
+#~ msgid "Restore Default Setting for Current Role"
+#~ msgstr "Restaurar valores por defecto del Rol Actual"
+
+#~ msgid "Export Configurations"
+#~ msgstr "Exportar configuraciones"
+
+#~ msgid "Import Configurations"
+#~ msgstr "Importar Configuraciones"
+
+#~ msgid "Support"
+#~ msgstr "Soporte"
+
+#~ msgid "Find on Facebook"
+#~ msgstr "Buscar en Facebook"
+
+#~ msgid "Follow on Twitter"
+#~ msgstr "Seguir en Twitter"
+
+#~ msgid "LinkedIn"
+#~ msgstr "LinkedIn"
+
+#~ msgid "Leave Without Saving?"
+#~ msgstr "Salir Sin Salvar ?"
+
+#~ msgid ""
+#~ "Some changed detected. Are you sure that you want to leave without saving"
+#~ msgstr "Detectados algunos cambios.  Está seguro de salir sin salvar ?"
+
+#~ msgid "Additional Features Available"
+#~ msgstr "Disponibles características adicionales"
+
+#~ msgid ""
+#~ "Additional features detected to extend Advanced Access Manager "
+#~ "functionality."
+#~ msgstr ""
+#~ "Características adicionales detectadas para extender la funcionalidad del "
+#~ "Administrador Avanzado de Acceso."
+
+#~ msgid ""
+#~ "Do you want to create a <b>Super Admin</b> Role to get access to ALL "
+#~ "features?"
+#~ msgstr ""
+#~ "Quiere crear el Rol <b>Super Admin</b> para acceder a todas las "
+#~ "características ?"
+
+#~ msgid ""
+#~ "After importing, ALL current configurations will be lost. If you are "
+#~ "sure, please select proper INI file and click on <i>Import</i> button."
+#~ msgstr ""
+#~ "Despues de importar, TODAS las configuraciones actuales de perderán.   Si "
+#~ "está seguro, seleccione el Archivo INI apropiado y haga click en el botón "
+#~ "<i>Importar</i>"
+
+#~ msgid "Uploading..."
+#~ msgstr "Actualizando..."
+
+#~ msgid "Please wait. Importer is working..."
+#~ msgstr "Espere por favor.  Realizando la importación..."
+
+#~ msgid "You are not authorized to view this page"
+#~ msgstr "No está autorizado a ver esta página"
+
+#~ msgid "Import"
+#~ msgstr "Importar"
+
+#~ msgid "Error during importing"
+#~ msgstr "Error durante la Importación"
+
+#~ msgid "Apply to ALL Blogs"
+#~ msgstr "Aplicar a TODOS los Blogs"
+
+#~ msgid "Action completed successfully"
+#~ msgstr "Acción completada con éxito"
+
+#~ msgid "Action failed"
+#~ msgstr "Error en la acción"
+
+#~ msgid "Settings applied successfully to ALL Blogs"
+#~ msgstr "Valores aplicados con éxito a todos los Blogs"
+
+#~ msgid ""
+#~ "<b>Since 2.0</b><br/>\n"
+#~ "        <b>Note:</b> No longer used."
+#~ msgstr ""
+#~ "<b>Since 2.0</b><br/>\n"
+#~ "        <b>Nota:</b> No usado mas."
+
+#~ msgid "<b>Description does not exist</b>"
+#~ msgstr "<b>Descripción no existe</b>"
+
+#~ msgid "<p>You do not have sufficient permissions to perform this action</p>"
+#~ msgstr "<p>No tienes los permisos suficientes para realizar esta acción</p>"
+
+#~ msgid ""
+#~ "<p><h3>General Information</h3></p>\n"
+#~ "    <p>If you want to filter Admin Menu for some User Roles or just "
+#~ "delete unnecessary dashboard widgets or metaboxes in Edit Post Page, this "
+#~ "plugin is for you.\n"
+#~ "       You can do following things with Advanced Access Manager:</p>\n"
+#~ "<ul>\n"
+#~ "<li>Filter Admin Menu for specific User Role</li>\n"
+#~ "<li>Filter Dashboard Widgets for specific User Role</li>\n"
+#~ "<li>Filter List of Metaboxes in Edit Post page for specific User Role</"
+#~ "li>\n"
+#~ "<li>Add new User Capabilities</li>\n"
+#~ "<li>Delete created User Capabilities</li>\n"
+#~ "<li>Create new User Roles</li>\n"
+#~ "<li>Delete any User Role</li>\n"
+#~ "<li>Save current User Roles settings and restore later</li>\n"
+#~ "<li>View the list of Posts Pages and Categories in a nice hierarchical "
+#~ "tree</li>\n"
+#~ "<li>Filter Posts and Post Categories</li>\n"
+#~ "<li>Filter Pages and Sub Pages</li>\n"
+#~ "<li>Set expiration Date for specific Posts, Pages or even Categories</"
+#~ "li>\n"
+#~ "<li>Reorganize Order of Main Menu for specific User Role</li>\n"
+#~ "</ul>\n"
+#~ "    <p><h3>Main Menu</h3></p>\n"
+#~ "    <p>Under Main Menu Tab there is a list of admin menu and submenus. "
+#~ "You can Restrict access to certain menus of submenus by checking proper "
+#~ "checkbox.\n"
+#~ "    Also you can reorganize the menu order by draggin and dropping menus "
+#~ "in order you want.</p>\n"
+#~ "    <p><h3>Metabox & Widgets</h3></p>\n"
+#~ "    <p>This section allows you to filter the list of metaboxes (sections "
+#~ "to the Write Post, Write Page, and Write Link editing pages) and "
+#~ "dashboard widgets.</p>\n"
+#~ "    <p><h3>Capabilities</h3></p>\n"
+#~ "    <p>This is more advanced Tab which allows to create different "
+#~ "combinations of Capabilities for current User Role. If you are not "
+#~ "familiar with Capabilities please read <a href=\"http://codex.wordpress."
+#~ "org/Roles_and_Capabilities\" target=\"_blank\">Roles and Capabilities</a>."
+#~ "</p>\n"
+#~ "    <p><h3>Posts & Pages</h3></p>\n"
+#~ "    <p>Tree View of Posts (grouped into categories) and Pages (organized "
+#~ "hierarchically according to Parent Page parameter) where you can restrict "
+#~ "access to certain page or post or the whole category for current User "
+#~ "Role. There is also possibility to set expiration date to posts or pages."
+#~ "</p>\n"
+#~ msgstr ""
+#~ "<p><h3>Información General</h3></p>\n"
+#~ "    <p>Si quiere flitrar el Menú Admin para algunos Roles de usuario o "
+#~ "borrar widgets no necesarios del Escritorio o metaboxes en la Edición de "
+#~ "páginas , Este plugin es para ti.\n"
+#~ "       You can do following things with Advanced Access Manager:</p>\n"
+#~ "<ul>\n"
+#~ "<li>Filter Admin Menu for specific User Role</li>\n"
+#~ "<li>Filter Dashboard Widgets for specific User Role</li>\n"
+#~ "<li>Filter List of Metaboxes in Edit Post page for specific User Role</"
+#~ "li>\n"
+#~ "<li>Add new User Capabilities</li>\n"
+#~ "<li>Delete created User Capabilities</li>\n"
+#~ "<li>Create new User Roles</li>\n"
+#~ "<li>Delete any User Role</li>\n"
+#~ "<li>Save current User Roles settings and restore later</li>\n"
+#~ "<li>View the list of Posts Pages and Categories in a nice hierarchical "
+#~ "tree</li>\n"
+#~ "<li>Filter Posts and Post Categories</li>\n"
+#~ "<li>Filter Pages and Sub Pages</li>\n"
+#~ "<li>Set expiration Date for specific Posts, Pages or even Categories</"
+#~ "li>\n"
+#~ "<li>Reorganize Order of Main Menu for specific User Role</li>\n"
+#~ "</ul>\n"
+#~ "    <p><h3>Main Menu</h3></p>\n"
+#~ "    <p>Under Main Menu Tab there is a list of admin menu and submenus. "
+#~ "You can Restrict access to certain menus of submenus by checking proper "
+#~ "checkbox.\n"
+#~ "    Also you can reorganize the menu order by draggin and dropping menus "
+#~ "in order you want.</p>\n"
+#~ "    <p><h3>Metabox & Widgets</h3></p>\n"
+#~ "    <p>This section allows you to filter the list of metaboxes (sections "
+#~ "to the Write Post, Write Page, and Write Link editing pages) and "
+#~ "dashboard widgets.</p>\n"
+#~ "    <p><h3>Capabilities</h3></p>\n"
+#~ "    <p>This is more advanced Tab which allows to create different "
+#~ "combinations of Capabilities for current User Role. If you are not "
+#~ "familiar with Capabilities please read <a href=\"http://codex.wordpress."
+#~ "org/Roles_and_Capabilities\" target=\"_blank\">Roles and Capabilities</a>."
+#~ "</p>\n"
+#~ "    <p><h3>Posts & Pages</h3></p>\n"
+#~ "    <p>Tree View of Posts (grouped into categories) and Pages (organized "
+#~ "hierarchically according to Parent Page parameter) where you can restrict "
+#~ "access to certain page or post or the whole category for current User "
+#~ "Role. There is also possibility to set expiration date to posts or pages."
+#~ "</p>\n"
